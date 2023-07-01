@@ -1,7 +1,8 @@
 <?php
-include "init.php";
+////Home Page
+include "init.php"; //including header and navbar
 ?>
-
+<!-- ------------------------------------------------------------------------------------- -->
 <!--Start Hero Area-->
 <section class="hero-area" id="home">
     <div class="hero-slider owl-carousel owl-theme">
@@ -16,45 +17,28 @@ include "init.php";
             </div>
         </div>
         
-    <!--
-        <div class="item">
-            <div class="single-item">
-                <div class="bg-image" data-image="slider03.JPG"></div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="single-item">
-                <div class="bg-image" data-image="slider04.jpg"></div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="single-item">
-                <div class="bg-image" data-image="slider05.JPG"></div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="single-item">
-                <div class="bg-image" data-image="slider06.JPG"></div>
-            </div>
-        </div> --->
+    
         
     </div>
 </section>
 <!--End Hero Area-->
 
+<!-- ------------------------------------------------------------------------------------- -->
+
 <section>
-<!--Start Box -->
+<!--Start Box Take The right Track -->
 <?php include $tpl . 'box.php'; ?>
 <!--End Box -->
 </section>
+
+<!-- ------------------------------------------------------------------------------------- -->
 
 <div class="container-fluid">
     <div class="row">
         <!--Start main parts-->
         <div class="col-md-9 col-12">
+
             <!--start event Area-->
-
-
             <section class="event-area main-padding" id="event">
                 <div class="container">
                     <div class="text-center mb-5">
@@ -114,11 +98,11 @@ include "init.php";
                 </div>
             </section>
             <!--End event Area-->
-
+<!-- ------------------------------------------------------------------------------------- -->
 <hr style="max-width: 1000px;border:solid 1.5px #226131;">
 <p style="text-align: center;">
 </p>
-
+<!-- ------------------------------------------------------------------------------------- -->
             <!--Start Committees Area-->
             <section class="committees-area main-padding">
                 <div class="container">
@@ -186,11 +170,11 @@ include "init.php";
                 </div>
             </section>
             <!--End Committees Area-->
-
+<!-- ------------------------------------------------------------------------------------- -->
 <hr style="max-width: 1000px;border:solid 1.5px #226131;">
 <p style="text-align: center;">
 </p>
-
+<!-- ------------------------------------------------------------------------------------- -->
             <!--Start EEGS Hight Borad Area-->
             <section class="eegs-hb-area main-padding">
                 <div class="container">
@@ -228,11 +212,11 @@ include "init.php";
                 </div>
             </section>
             <!--End EEGS Hight Borad Area-->
-
+<!-- ------------------------------------------------------------------------------------- -->
 <hr style="max-width: 1000px;border:solid 1.5px #226131;">
 <p style="text-align: center;">
 </p>
-
+<!-- ------------------------------------------------------------------------------------- -->
             <!--Start Contact Us Area-->
             <section class="contact-Area main-padding" id="contact">
                 <div class="container">
@@ -243,7 +227,9 @@ include "init.php";
                         <p>Do you have some feedback? Or an issue that you think the Student Association Board should deal with? Or just a thought you think the Board should know about? <u>Please</u>  contact us!</p>
                         <p>Don't forget that you are always very welcome to talk to us in EEGS.</p>
                     </div>
+
                     <?php
+                    //including the form page
                     include $tpl . 'form.php'?>
                 </div>
             </section>
@@ -251,16 +237,16 @@ include "init.php";
             
         </div>
         <!--End main parts-->
-        
+<!-- ------------------------------------------------------------------------------------- -->
         <!--start aside -->
         <aside class="col-md-3 col-12 p-0">
-            <?php include $tpl . 'homesidebar.php'; ?>
+            <?php include $tpl . 'homesidebar.php'; //including sidebar for home page?>
         </aside>
         
         <!--End aside -->
     </div>
 </div>
-
+<!-- ------------------------------------------------------------------------------------- -->
 <!--Start Footer -->
-<?php include $tpl . 'footer.php'; ?>
+<?php include $tpl . 'footer.php'; //including footer?>
 <!--End Footer -->

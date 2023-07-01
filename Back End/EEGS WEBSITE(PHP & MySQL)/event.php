@@ -1,4 +1,5 @@
 <?php
+    ///Event Page
     ob_start();
     include "init.php";
 
@@ -7,7 +8,7 @@
 
 
 
-
+    //View event page
     if($do == 'single-event') {
 
         $eventid = filter_var($_GET['eventid'], FILTER_SANITIZE_NUMBER_INT);
@@ -17,7 +18,7 @@
         $row = $stmt->fetch();
         $count = $stmt->rowCount();
 
-
+        //if there is an event with the id 
         if ($count > 0) {
 
 
@@ -58,7 +59,7 @@
             exit();
         }
     }elseif ($do == 'view') { ?>
-
+    <?//show all events page?>
 
 
       <section class="event-area main-padding" id="event">
@@ -77,28 +78,28 @@
                                 $count= $stmt->rowCount();
                                 if($count > 0) {
                                     foreach ($rows as $row) { ?>
-                                    <div class="col-lg-4 col-12 mb-5">
-                                        <div class="single-event">
-                                            <div class="event-img">
-                                                <img src="<?php echo $eventimg . $row['event_image_path']; ?>"
-                                                     class="img-fluid" alt="Saknafta Event"/>
-                                            </div>
-                                            <div class="cnt">
-                                                <div class="event-name">
-                                                    <h3><?php echo $row['event_title'] ?></h3>
+                                        <div class="col-lg-4 col-12 mb-5">
+                                            <div class="single-event">
+                                                <div class="event-img">
+                                                    <img src="<?php echo $eventimg . $row['event_image_path']; ?>"
+                                                        class="img-fluid" alt="Saknafta Event"/>
                                                 </div>
-                                                <div class="event-time">
-                                                    <h6>Time: <strong><?php echo $row['event_time']; ?></strong></h6>
+                                                <div class="cnt">
+                                                    <div class="event-name">
+                                                        <h3><?php echo $row['event_title'] ?></h3>
+                                                    </div>
+                                                    <div class="event-time">
+                                                        <h6>Time: <strong><?php echo $row['event_time']; ?></strong></h6>
+                                                    </div>
+                                                    <div class="event-instructor">
+                                                        <h6>Instructor: <strong><?php echo $row['event_instructor']; ?></strong></h6>
+                                                    </div>
                                                 </div>
-                                                <div class="event-instructor">
-                                                    <h6>Instructor: <strong><?php echo $row['event_instructor']; ?></strong></h6>
+                                                <div class="event-VM">
+                                                    <a href="event.php?do=single-event&eventid=<?php echo $row['event_id']; ?>" class="btn btn-success">View Event</a>
                                                 </div>
-                                            </div>
-                                            <div class="event-VM">
-                                                <a href="event.php?do=single-event&eventid=<?php echo $row['event_id']; ?>" class="btn btn-success">View Event</a>
                                             </div>
                                         </div>
-                                    </div>
                                     <?php } ?>
                                   
                             <?php

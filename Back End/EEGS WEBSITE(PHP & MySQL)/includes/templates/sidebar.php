@@ -53,7 +53,7 @@
                         $rows = $stmt->fetchAll();
 
                         foreach ($rows as $row) {
-                            ?>
+                    ?>
                             <li class="mt-2 mb-2"><a href="event.php?do=single-event&eventid=<?php echo $row['event_id']; ?>"><?php echo $row['event_title']; ?></a></li>
                     <?php
                         }

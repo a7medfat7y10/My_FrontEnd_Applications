@@ -27,6 +27,7 @@
                 <h4 class="heading">EEGS SC SU</h4>
                   <hr style="max-width: 100px;border:solid 1.5px #226131;">
                     <p style="text-align: center;"> <img src="<?php echo $img?>EEGS_Blue.png" style="position: relative;width:25px;height: 35px;margin-top: -65px;background-color: #ffffff;"></p>
+            </div>
 	<div class="row">
             </div>
             <div class="content">
@@ -45,6 +46,7 @@
                 <h4 class="heading">Events</h4>
                      <hr style="max-width: 100px;border:solid 1.5px #226131;">
                     <p style="text-align: center;"> <img src="<?php echo $img?>EEGS_Blue.png" style="position: relative;width:25px;height: 35px;margin-top: -65px;background-color: #ffffff;"></p>
+            </div>
             <div class="links">
                 <ul class="list-unstyled">
                     <?php

@@ -65,11 +65,11 @@
                 </li>
                 <li class="nav-item" >
                     <i class="nav-icon icon-basic-info"></i>
-                    <a href="about" class="nav-link pr-2" data-scroll="#">About Us</a>
+                    <a href="about.php" class="nav-link pr-2" data-scroll="#">About Us</a>
                 </li>
                 <li class="nav-item" >
                     <i class="nav-icon icon-basic-message-multiple"></i>
-                    <a href="contact" class="nav-link pr-2" data-scroll="contact">Contact Us</a>
+                    <a href="contact.php" class="nav-link pr-2" data-scroll="contact">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -80,25 +80,25 @@
 		<h2>Academy Committee</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
-		 <p>Technical knowledge is the most outstanding factor that distinguishes people in labor market, from this point and believing in that importance we in EEGS focus on enhancing this side, either in petroleum, geology or in environment aspects.<br>
+            <p>Technical knowledge is the most outstanding factor that distinguishes people in labor market, from this point and believing in that importance we in EEGS focus on enhancing this side, either in petroleum, geology or in environment aspects.<br>
 
-In EEGS we have two parts in academic team:<br>
-<b>1-academy team:</b><br>
-Description: in academy team we focus on improving technical knowledge for our members and launch this knowledge to whole chapter, we provide technical posts, essays and articles for Facebook page. 
-We have some outstanding improvement in our academic team as:
+            In EEGS we have two parts in academic team:<br>
+            <b>1-academy team:</b><br>
+            Description: in academy team we focus on improving technical knowledge for our members and launch this knowledge to whole chapter, we provide technical posts, essays and articles for Facebook page. 
+            We have some outstanding improvement in our academic team as:
 
-1-We provide periodical session for academic team to make it upgraded to new techniques
-2-We armored our members with presentation skills by organizing technical sessions done by them
-3-We deeply concentrate on technical topics and open the scope of innovation to improve out-of-date techniques.
-4-We always try to provide non-technical sessions for our members.
-5-We make technical videos either for u-tube channel or for technical sessions.<br>
-<b>2-Student DP:</b><br>
-Description: This part is related to spread our post-high school experience to high school students. We try in this part to give a blank about university life and soft skills. 
-Improvement:
+            1-We provide periodical session for academic team to make it upgraded to new techniques
+            2-We armored our members with presentation skills by organizing technical sessions done by them
+            3-We deeply concentrate on technical topics and open the scope of innovation to improve out-of-date techniques.
+            4-We always try to provide non-technical sessions for our members.
+            5-We make technical videos either for u-tube channel or for technical sessions.<br>
+            <b>2-Student DP:</b><br>
+            Description: This part is related to spread our post-high school experience to high school students. We try in this part to give a blank about university life and soft skills. 
+            Improvement:
 
-1-We try to make scientific experiments in our session.
-2-We try to give background about petroleum industry.<br>
-Our track does not stop here, we have new spirit everyday to be the role chapter.</p>
+            1-We try to make scientific experiments in our session.
+            2-We try to give background about petroleum industry.<br>
+            Our track does not stop here, we have new spirit everyday to be the role chapter.</p>
 		</div>
 	</div>
 </div>
@@ -121,25 +121,25 @@ Our track does not stop here, we have new spirit everyday to be the role chapter
 		<h2>PR Committee</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
-		 <p>The Public Relations committee is the face and image of EEGS and responsible for all relations and deals the chapter makes. We help coordinate and plan outreach events, conferences, and generate useful value for all students.
-<br><b>Specific Duties:</b><br>
-organising and attending promotional events such as conferences, open days, exhibitions, student trainings, tours and visits.<br>
-Make sponsorship deals and discuss the funding and budget plan to help reach the chapter's goals.<br>
-speaking and represent the chapter in any organization.<br>
-planning strategies and campaigns.<br>
-dealing with enquiries from the public and related organisations.<br>
-providing clients with information about new promotional opportunities and current PR progress.<br>
-<b>Work with:</b>
-Commercial and industrial organisations
-Private companies
-Charities
-Government organisations
-Advertising or marketing agencies.
-<br><b>Benifit of Joining PR Comittee:</b><br>
-Gain so many useful skills from management, planning and communication skills that develop your character and enhance your confidence.<br>
-You can also make great network from so many talented people in your field.<br>
-And off course encourage your personality to be more social and more connected with companies, organizations and a lot of influential people,
-If you want to gain that experience Public Relations Committee is the place to be.</p>
+            <p>The Public Relations committee is the face and image of EEGS and responsible for all relations and deals the chapter makes. We help coordinate and plan outreach events, conferences, and generate useful value for all students.
+                <br><b>Specific Duties:</b><br>
+                organising and attending promotional events such as conferences, open days, exhibitions, student trainings, tours and visits.<br>
+                Make sponsorship deals and discuss the funding and budget plan to help reach the chapter's goals.<br>
+                speaking and represent the chapter in any organization.<br>
+                planning strategies and campaigns.<br>
+                dealing with enquiries from the public and related organisations.<br>
+                providing clients with information about new promotional opportunities and current PR progress.<br>
+                <b>Work with:</b>
+                Commercial and industrial organisations
+                Private companies
+                Charities
+                Government organisations
+                Advertising or marketing agencies.
+                <br><b>Benifit of Joining PR Comittee:</b><br>
+                Gain so many useful skills from management, planning and communication skills that develop your character and enhance your confidence.<br>
+                You can also make great network from so many talented people in your field.<br>
+                And off course encourage your personality to be more social and more connected with companies, organizations and a lot of influential people,
+                If you want to gain that experience Public Relations Committee is the place to be.</p>
 		</div>
 	</div>
 </div>
@@ -150,10 +150,10 @@ If you want to gain that experience Public Relations Committee is the place to b
 		<h2>Operations Committee</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
-		 <p><b>Direct Publicity:</b> it's the ability of the member to convince as many as possible students about the importance of every event that belongs to the chapter in a very professional way and make them understand the importance of the chapter to join us and have the opportunity to improve.
-                        <br>
-                        <br>
-                 <b> Organizing operations:</b> it's the ability of the member to organize any work or event that belongs to the chapter like ( opening - outing - general meeting - technical events - non-technical events - charity days) in a very professional way by providing all the requirements of this work or event and giving attention to the small details to reach professionalism.</p>
+            <p><b>Direct Publicity:</b> it's the ability of the member to convince as many as possible students about the importance of every event that belongs to the chapter in a very professional way and make them understand the importance of the chapter to join us and have the opportunity to improve.
+                            <br>
+                            <br>
+                <b> Organizing operations:</b> it's the ability of the member to organize any work or event that belongs to the chapter like ( opening - outing - general meeting - technical events - non-technical events - charity days) in a very professional way by providing all the requirements of this work or event and giving attention to the small details to reach professionalism.</p>
 		</div>
 	</div>
 </div>
@@ -176,10 +176,10 @@ If you want to gain that experience Public Relations Committee is the place to b
 		<h2>Media Committee</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
-		 <p>One of marketing segment committees working on two different things<br>
+		    <p>One of marketing segment committees working on two different things<br>
 
-Facebook page designs That include events, technical and non-technical posts
-offline designs as t-shirt, tickets,..... . <br>Inside this committee you can learn how to use graphic design programs</p>
+            Facebook page designs That include events, technical and non-technical posts
+            offline designs as t-shirt, tickets,..... . <br>Inside this committee you can learn how to use graphic design programs</p>
 		</div>
 	</div>
 </div>
@@ -191,12 +191,12 @@ offline designs as t-shirt, tickets,..... . <br>Inside this committee you can le
 		<h2>IT Committee</h2>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
-		 <p>IT Committee is very important in any organization. it helps in building a website for the organization. <br>So, Here in EEGS, We will teach the members how to built a website for scratch. by learning some of program language Like <br>
-HTML <br>
-CSS <br>
-Javascript and its libraries like jQuery<br> 
-After learing these language. you will able to built a complete and responsive website. <br>
-So we are here, <strong>Join us</strong></p>
+		    <p>IT Committee is very important in any organization. it helps in building a website for the organization. <br>So, Here in EEGS, We will teach the members how to built a website for scratch. by learning some of program language Like <br>
+            HTML <br>
+            CSS <br>
+            Javascript and its libraries like jQuery<br> 
+            After learing these language. you will able to built a complete and responsive website. <br>
+            So we are here, <strong>Join us</strong></p>
 		</div>
 	</div>
 </div>
@@ -212,9 +212,9 @@ So we are here, <strong>Join us</strong></p>
                         <br>
                         <br>
                  <b>Our aim is to qualify our members to be able to:</b>
-<br>-Edit articles
-<br>-Write emails and contact specialists who can provide us with articles related to the industry new technologies 
-<br>-Find new ideas that develop our magazine.</p>
+                <br>-Edit articles
+                <br>-Write emails and contact specialists who can provide us with articles related to the industry new technologies 
+                <br>-Find new ideas that develop our magazine.</p>
 		</div>
 	</div>
 </div>
