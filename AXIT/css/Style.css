@@ -1,0 +1,589 @@
+/* Main Css Rules  for Main Elements in The project */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+/*  End of Main Css Rules  */
+
+/*  Start navbar */
+.navbar .navbar-brand {
+    Font-size:30px;
+    font-weight: bold
+}
+
+.navbar .navbar-brand span{
+    color:#a35e2e;
+    font-size:30px;
+}
+.navbar span{
+    color:#a35e2e;
+    font-size:30px;
+}
+.navbar li.active a,
+.navbar li:hover a {
+    background-color: #a35e2e !important;
+} 
+.navbar li a {
+    cursor:pointer
+}
+.selected {
+    background-color: rgba(0,0,0,0.6)
+}
+
+/*start hreader*/
+.header {
+    background: url('../images/u2_state0.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height:1000px;
+   
+    position:relative;
+    color:#FFF;
+}
+.header .overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.6);
+    
+}
+.centering-vh {
+    margin-top: 300px;
+}
+@media (max-width:991px ){
+    .centering-vh {
+        margin-top: 100px;
+    }
+}
+.header h1{
+    font-weight:bold;
+    font-size: 65px;
+    margin-top: 0
+
+}
+.header h1 span 
+{
+    font-weight: 100;
+    color:#a35e2e;
+}
+.header h1 ~ .lead {
+    font-size:30px;
+}
+.header h1 ~ .lead:after {
+    content: "";
+    display:block;
+    width:70px;
+    height:2px;
+    background-color: #FFF;
+    margin:25px 0px;
+}
+@media (max-width:991px){
+    .header h1 ~ .lead:after {
+    
+        margin: 25px auto
+    }
+}
+.header button {
+    background: transparent;
+    padding:5px 15px;
+    border:2px sloid #FFF;
+    margin-top:20px
+
+}
+@media (max-width:991px){
+    .header button {
+        margin:20px 40%
+    }
+}
+
+.header form {
+    width:360px;
+    background-color: #FFF;
+    border-radius:5px;
+    overflow: hidden;
+    display: block;
+
+}
+.header form h2{
+    color:#aeaeae;
+    
+    background-color: #f5f5f5;
+    font-size:18px;
+    padding:20px;
+    font-weight:bold;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+.header form h2 span{
+    color:#a35e2e;
+}
+.header form .form-control {
+    border-radius:0;
+    border:none;
+    box-shadow: none;
+    border-bottom: 1px solid #CCC;
+    width:80%;
+    margin:0 auto 40px;
+
+}
+.header .btn-block {
+    background-color: #a35e2e;
+    border-radius: 0;
+    padding:10px
+}
+
+@media (max-width:991px){
+    .header .text-center-sm{
+        text-align:center
+    }
+}
+/*end hreader*/
+
+/*start social*/
+.social{
+    padding:40px 0;
+    box-shadow: -2px -5px 13px #000;
+}
+@media (max-width:991px){
+    .social {
+    
+        text-align: center;
+        
+    }
+}
+.social h3 {
+    font-weight:bold;
+}
+.social p{
+    columns: #a1a1a1;
+}
+.social ul li {
+    float:left;
+    margin:30px 0px;
+    cursor:pointer;
+    
+}
+@media (max-width:991px){
+    .social ul li {
+        float:left;
+        width:16.6666667%
+    }
+}
+@media (min-width:992px){
+    .social ul li {
+        margin-right:50px
+
+    }
+    .social ul li.last{
+        margin-right:0
+
+    }
+}
+
+.social li i {
+    color:#CCC;
+}
+/*end social*/
+
+/*start tabs*/
+.tabs
+{
+    padding:150px 0;
+    background-color: #f5f5f5;
+}
+@media (max-width:991px) {
+    .tabs {
+        text-align:center
+    }
+    .tabs .tabs-content .btn-lg {
+       margin-top:20px;
+       margin-bottom:20px
+    }
+    .tabs .tabs-content h3 {
+        margin-top:60px;
+        font-weight:bold;
+        margin-bottom:20px;
+    }
+}
+.tabs .tabs-switch li {
+    background-color: #333;
+    color:#FFF;
+    border-bottom: 1px solid #FFF;
+    height:110px;
+    line-height:110px;
+    font-size:20px;
+    text-transform:uppercase;
+    cursor:pointer;
+
+
+}
+.tabs .tabs-switch li.active,
+.tabs .tabs-switch li:hover {
+    background-color:#a35e2e;
+
+}
+.tabs .tabs-content h3 {
+    margin-top:0;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.tabs .tabs-content p {
+    line-height: 1.6;
+    font-size:18px;
+    color:#7e7e7e;
+
+}
+.tabs .tabs-content .btn-lg {
+    background-color: #a35e2e;
+    color: #FFF;
+}
+.tabs .tabs-content div:not(.tab-one) {
+    display:none
+}
+/*end tabs*/
+
+/*Start sublist*/
+.sublist {
+    padding:50px 0
+}
+@media (max-width:991px) {
+    .sublist {
+        text-align:center
+    }
+    .sublist .head-border:after {
+        margin-left:auto;
+        margin-right:auto
+    }
+}
+.sublist .image {
+    margin-top:50px
+}
+.sublist h3{
+    font-weight: bold;
+}
+.sublist .sublist-paragraph {
+    color:#777;
+    line-height: 1.6;
+    margin-bottom:30px
+}
+.sublist .list-icon i {
+    width:40px;
+    height:40px;
+    line-height:36px;
+    text-align:center;
+    color:#a35e2e;
+    border:2px solid #a35e2e;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px
+}
+@media (max-width:991px){
+    .sublist .list-icon i {
+        float:none !important;
+        margin-left:20px
+    }
+}
+.sublist .list-icon .text-info {
+    width:calc(100% - 70px)
+}
+@media (max-width:991px){
+    .sublist .list-icon .text-info{
+        float:none !important;
+        width:100%
+    }
+}
+.sublist .list-icon .text-info h4 {
+    font-weight:bold;
+}
+
+/*end sublist*/
+
+
+
+/*start standard picture */
+.standard-picture {
+    padding : 100px 0;
+    background-color: #f5f5f5;
+    color:#777
+}
+@media (max-width:991px) {
+    .standard-picture {
+        text-align:center;
+
+    }
+    .standard-picture .head-border:after {
+        margin-left:auto;
+        margin-right:auto
+    }
+}
+.standard-picture h3 {
+    font-weight:bold
+}
+.standard-picture .list-info {
+    margin-top: 60px
+}
+/*end standard picture*/
+
+
+
+
+/*Start this is awesome*/
+.awesome {
+    padding:70px 0
+}
+@media (max-width:991px) {
+    .awesome{
+        text-align:center
+    }
+}
+.awesome .row {
+    margin-top:50px
+}
+.awesome h2 {
+    font-weight:bold;
+}
+.awesome .head-border:after{
+    margin-left:auto;
+    margin-right:auto;
+  
+}
+.awesome i {
+    width:70px;
+    height:70px;
+    border:2px solid #a35e2e;
+    border-radius:50%;
+    line-height:70px;
+    text-align:center;
+    color:#a35e2e
+}
+.awesome h4 {
+    font-weight:bold
+}
+.awesome  p
+{
+    color:#dfdfe0
+}
+/*end this is awesome*/
+
+/*Start pricing */
+.pricing {
+    background-color: #f5f5f5;
+    padding:80px 0
+}
+@media (max-width:991px) {
+    .pricing {
+        text-align:center
+    }
+}
+.pricing h2 
+{
+    font-weight: bold
+}
+.pricing .head-border:after{
+    margin-left: auto;
+    margin-right:auto;
+
+}
+.pricing h3{
+    font-weight:bold;
+    color:#FFF;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 
+}
+.pricing .price {
+    color :#FFF;
+    font-size:90px;
+    text-align:center;
+  
+}
+.option-price {
+    padding :50px;
+    border-bottom:5px solid #a35e2e
+}
+.pricing .period {
+    color:#535353;
+    display:block;
+    font-size:20px
+}
+.pricing .price .usd {
+    font-size: 40px
+}
+.pricing .price-box {
+    background-color:#333
+}
+.pricing ul {
+    background-color: #FFF;
+    
+}
+.pricing ul li{
+    padding: 20px;
+    color: #777;
+    border-bottom:1px solid #000
+}
+.pricing .border {
+    
+    background-color: #a35e2e;
+    margin:0;
+    padding:5px 10px 10px;
+    color:#FFF;
+    font-size:20px
+    
+}
+.pricing .basic ,
+.pricing .enterprise {
+    margin-top:63px
+}
+/*end pricing*/
+
+/* start contact us */
+.contact-us {
+    padding: 80px 0 0
+}
+@media (max-width:991px) {
+    .contact-us {
+        text-align:center
+    }
+}
+.contact-us form input{
+    margin-bottom:10px;
+    border:none;
+    box-shadow:none;
+    border-bottom:1px solid #e0e0e0;
+    border-radius: 0
+}
+.contact-us form textarea{
+    height:123px;
+    border:none;
+    box-shadow:none;
+    border-bottom:1px solid #e0e0e0;
+    border-radius: 0
+
+}
+.contact-us .head-border:after {
+    margin-left:auto;
+    margin-right: auto 
+}
+.contact-us  .contact-desc{
+    color:#a9aaac;
+    margin-bottom:40px
+
+}
+.contact-us .contact-btn {
+    margin:30px auto;
+    display:block;
+    padding:8px 20px;
+    border:2px solid #FFF;
+    background-color: #a35e2e;
+    color:#FFF;
+    border-radius:8px;
+    font-size: 16px;
+    font-weight: bold
+
+}
+
+/*End contact*/
+/*start footer*/
+.footer {
+    background-color: #000;
+    color:#EEE;
+    padding: 20px;
+    font-size:20px
+    
+} 
+
+/*end footer*/
+
+
+/*start loading section*/
+.loading-overlay {
+    background: #a35e2e;
+    color:#FFF;
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99999
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+  
+    margin: 350px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+  }
+  
+  @-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  }
+
+/*end loading section*/
+
+
+/*start scroll to top*/
+#scroll-top {
+    width:50px;
+    height:30px;
+    padding: 5px 8px;
+    color:#DDD;
+    background-color: #272727;
+    text-align:center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    display: none;
+    
+}
+#scroll-top i{
+
+    font-size: 26px;
+
+}
+#scroll-top:hover {
+    background-color: #a35e2e;
+    cursor: pointer
+}
+
+/*end scroll to top*/
+
+
+/*start framework*/
+.uppercase {
+    text-transform: uppercase;
+}
+.head-border:after {
+    content:'';
+    display:block;
+    width:60px;
+    height:3px;
+    background-color:#a35e2e;
+    margin:25px 0;
+}
+/*end framework*/
