@@ -1,0 +1,96 @@
+div
+{
+    background-color: aqua;
+    background-image: url("Ahmed.jpg");
+    height:1000px;
+    width:1050px;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    margin:10px 0;
+    color:blue;
+    direction:ltr;
+    letter-spacing:normal;
+    line-height:40px ;
+    text-align: left;
+    text-decoration:underline;
+    text-indent:40px;
+    white-space: normal;
+    
+}
+
+span.cap
+{
+    text-transform:capitalize;
+}
+
+span.upper
+{
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+
+p
+{
+    font-family: tahoma;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+a
+{
+    color: blue;
+    text-decoration: underline
+}
+
+a:hover
+{
+    color:red;    
+    font-weight: bold;
+}
+a:active
+{
+    color:green;
+}
+
+ul
+{
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: none;
+}
+
+ul li
+{
+    color:red;
+    border:1px solid #DDD;
+    width:100px
+}
+
+.borders
+{
+    background-color: aqua;
+    
+    border-width: 20px;
+    border-style: solid dashed;
+    border-color: red blue green yellow ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

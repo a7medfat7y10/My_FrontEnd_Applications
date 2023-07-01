@@ -1,0 +1,82 @@
+body
+{
+    height:3000px;
+   background: #DDD;
+}
+
+
+.one
+{
+    background-color: aqua;
+    color:red;
+    width:300px;
+    border:2px solid blue;
+    margin:50px auto;
+    padding: 20px;
+    position: fixed;
+    right:400px;
+    z-index: 1;
+}
+
+
+.parent
+{
+    width:940px;
+    background:aqua;
+    Padding:10px;
+    height:600px;
+    position:relative;
+    z-index: 3
+}
+
+.child
+{
+    width:600px;
+    height:400px;
+    padding:10px;
+    background:#EFEFEF;
+    
+}
+.abs
+{
+    background: #FOO;
+    color:blue;
+    padding:10px;
+    position:absolute;
+    border:1px solid black;
+    background: yellow;
+    top:100px;
+    right:100px;
+}
+.left
+{
+    width:300px;
+    background:blue;
+    color:red;
+    padding:10px;
+    margin: 10px;
+    float: left;
+}
+
+.clear
+{
+    clear:both;
+}
+
+
+.overflow
+{
+    color:blue;
+    height:200px;
+    background: red;
+    margin:10px;
+    border:1px solid black;
+    padding:10px;
+    overflow:auto;
+}
+
+div:after
+{
+    content: "Hello From CSS";
+    color:darkgoldenrod
+}

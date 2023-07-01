@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Welcome to my web site">
+        <title> Forms </title>  
+        <style>
+        
+        
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <script></script>
+    </head>
+    <body>
+        <forrm name="register">
+            
+            
+            <fieldset>
+                 <legend> Personal information</legend>   
+                <label>Username</label>
+                <input type="text" name= username>
+                <br>
+
+                <label>Password</label>
+                <input type="password" name="password">
+                <br>
+                <label> your message</label> <br>
+                <textarea rows="6" cols="50" readonly>This note you can't edit</textarea>
+                <br>
+
+                <label> upload your CV</label>
+                <input type="file">
+                <br>
+
+                <input type="checkbox">
+                <label> Remember me</label>
+                <br>
+            </fieldset>
+            
+            <fieldset>   
+                <legend> your favourite</legend>
+                <label> Choose your browser </label> <br>
+                <input type="radio" name="browser" value="Chrome"> Google chrome <br>
+                <input type="radio" name="browser" value="Firefox"> Mozila Firefox <br>
+                <input type="radio" name="browser" value="Opera"> Opera <br>
+            </fieldset>
+            
+            
+            
+            <fieldset>
+                <legend> send options</legend>
+                <select name="time" size="2"> 
+                   <optgroup label="near time">
+                        <option value="1"> Now</option>
+                       <option value="2">tomorrow</option>
+                       <option value="3">After a week</option>
+                    </optgroup>
+                
+                </select>    
+                
+                
+                
+            <input type="hidden" value="testing">
+            <input type="button" name="Say Hello" value="Say Hello">
+            <input type="submit" value="Log in">
+            <input type="Reset" value="Restore Default">
+            
+            </fieldset>
+        </forrm>    
+        
+       
+    </body>
+</html> 
