@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button type="button">Say Hello</button>
+  <p></p>
+
+  <script src="jquery-1.11.3.min.js"></script>
+<script>
+  
+  $(function() {
+    $("button").on('click' , function () {
+      $.ajax({
+        url: "ajax_info.txt",
+        type: "GET",
+        success: function(data) {
+          $("p").html(data);
+        }
+      }) 
+    }) 
+  })
+
+</script>
+
+</body>
+</html>
