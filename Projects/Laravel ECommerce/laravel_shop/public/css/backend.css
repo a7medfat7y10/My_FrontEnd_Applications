@@ -1,0 +1,293 @@
+/* Main Css Rules  for Main Elements in The project */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    font-size: 16px
+}
+
+.navbar-inverse{
+    border-radius: 0;
+}
+h1{
+    font-weight: bold;
+}
+/*  End of Main Css Rules  */
+
+/*  Start login */
+.login {
+    width:300px;
+    margin:100px auto;
+}
+.login input {
+    margin-bottom:10px
+}
+.login .form-control {
+    background-color: #eaeaea;
+}
+.login .btn {
+    background-color: #008dde
+}
+/*  end login */
+
+/* Start dashboard*/
+.home-stats .stat {
+
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius:10px;
+    position: relative;
+    overflow: hidden;
+}
+.home-stats .stat .info {
+    float:right;
+}
+.home-stats .stat i {
+    font-size:70px;
+    position:absolute;
+    top:35px;
+    left:30px
+}
+.home-stats .stat span {
+    display: block;
+    font-size: 60px
+}
+.home-stats .stat span a {
+    color:#FFF;
+}
+.home-stats .stat span a:hover {
+    text-decoration: none
+}
+
+.home-stats .st-members {
+    background-color: #3498db
+}
+.home-stats .st-pending {
+    background-color: #9b59b6
+}
+.home-stats .st-items {
+    background-color: #e74c3c
+}
+.home-stats .st-comments {
+    background-color: #16a085
+}
+.latest {
+    margin-top:30px;
+}
+.latest .toggle-info {
+    color: #999;
+    cursor: pointer;
+}
+.latest .toggle-info:hover {
+    color : #444
+}
+.latest-users {
+    margin-bottom: 0;
+
+}
+.latest-users li {
+    padding: 10px;
+    overflow: hidden;
+}
+.latest-users li:nth-child(odd) {
+    background-color: #EEE;
+
+}
+.latest-users .btn-success {
+    padding: 2px 8px;
+}
+.latest-users .btn-info {
+    padding: 2px 8px;
+    margin-right:5px
+}
+.latest .comment-box {
+    margin: 5px 0 10px;
+}
+.latest .comment-box .member-name,
+.latest .comment-box .member-comment {
+    float:left;
+}
+.latest .comment-box .member-name {
+    margin-right:20px;
+    width:80px;
+    text-align: center;
+    position: relative;
+    top:10px;
+    text-transform: capitalize
+}
+.latest .comment-box .member-comment {
+    width: calc(100% - 100px);
+    background-color: #e3dbdb;
+    padding:10px;
+    position: relative;
+}
+.latest .comment-box .member-comment:before {
+    content:"";
+    display: block;
+    position: absolute;
+    left: -28px;
+    top:5px;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-color: transparent #e3dbdb transparent transparent;
+    border-width:15px
+}
+
+/* End dashboard*/
+
+/*Start members page*/
+
+.form-control {
+    position : relative;
+}
+span.asterisk {
+    position : absolute;
+    top:8px;
+    right:30px;
+    color: #D20707;
+    font-size: 30px
+}
+.show-password {
+    position: absolute;
+    top:14px;
+    right:50px
+}
+.main-table {
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+}
+.main-table td {
+    background-color: #FFF;
+    vertical-align: middle !important;
+
+}
+.main-table tr:first-child td {
+    background-color:#333;
+    color: #FFF
+}
+.main-table .btn {
+    padding:3px 10px
+}
+.activate {
+    margin-left: 5px;
+}
+.manage-members img {
+    width:50px;
+    height: 50px
+}
+/*End members page*/
+
+/*start category page */
+.category .cat {
+    padding:15px;
+    position: relative;
+    overflow:hidden
+
+}
+.category .cat:hover {
+    background-color: #EEE;
+}
+.category .panel-body {
+    padding: 0
+}
+.category .cat:hover .hidden-buttons {
+    right:10px
+}
+.category .cat  h3{
+    margin:0 0;
+    cursor: pointer
+
+}
+.category .cat .full-view p{
+    margin: 10px 0;
+}
+.category .cat .hidden-buttons a {
+    margin-right: 5px
+}
+.category .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position : absolute;
+    top:15px;
+    right:-120px
+}
+.category .cat:last-of-type ~ hr {
+    display:none;
+}
+.category hr {
+    margin-top: 0;
+    margin-bottom: 0
+}
+.category .cat .visibility {
+    color:#FFF;
+    background-color: #3498db;
+    padding:4px 6px;
+    margin-right: 6px;
+    border-radius: 6px
+}
+.category .cat .advertising {
+    color:#FFF;
+    background-color:red;
+    padding:4px 6px;
+    margin-right: 6px;
+    border-radius: 6px
+}
+.category .cat .commenting {
+    color:#FFF;
+    background-color:green;
+    padding:4px 6px;
+    margin-right: 6px;
+    border-radius: 6px
+}
+.parent {
+    width: 360px;
+    height: 49px;
+    padding: 12px;
+    color: rgb(161, 161, 161);
+    border-radius: 6px;
+    font-size: 20px;
+    outline: none;
+}
+
+
+.category .option a {
+    color : #888;
+    text-decoration : none
+}
+.category .option span{
+    color : #888;
+    cursor: pointer;
+}
+.category .option .active {
+    color : #F00;
+    font-weight: bold
+}
+
+
+.child-head {
+    margin: 15px 0;
+    font-weight: bold;
+    color : #22ab79;
+    font-size: 16px
+
+}
+.child-cats {
+    margin:0;
+
+}
+.child-cats li {
+    margin-left : 20px;
+}
+.child-cats li:before {
+    content: "- ";
+}
+.child-cats .show-delete {
+    color :#F00;
+    display: none
+}
+/*end category page */
