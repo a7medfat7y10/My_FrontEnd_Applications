@@ -1,0 +1,14 @@
+{
+    "name" : "simple youtube downloader" ,
+    "description": "download youtube videos simpler than before",
+    "version": "0.1",
+    "author" : "Nick Germaine",
+    "manifest_version": 2,
+    "web_accessible_resources" : ["src/youtubedl.js"],
+    "content_scripts": [
+        {
+            "matches":["https://www.youtube.com/watch?v=SR7dMc5CX2o"],
+            "js":["src/loader.js"]
+        }
+    ]
+}
