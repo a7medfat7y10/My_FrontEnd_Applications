@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Your Application's Landing Page.
+                    <a href="{{url('/admin')}}">Go to dashboard </a>
                 </div>
             </div>
         </div>

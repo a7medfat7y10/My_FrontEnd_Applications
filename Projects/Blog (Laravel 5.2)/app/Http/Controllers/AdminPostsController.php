@@ -22,9 +22,9 @@ class AdminPostsController extends Controller
      */
     public function index()
     {
-        //
-
-        $posts = Post::all();
+        //Pagination
+        //this shows only two posts instead of showing Post::all();
+        $posts = Post::paginate(2);
 
 
         return view('admin.posts.index', compact('posts'));
@@ -132,7 +132,7 @@ class AdminPostsController extends Controller
         //
         $post = Post::findOrFail($id);
 
-        unlink('C:\wamp64\www' . $post->photo->file);
+        // unlink('C:\wamp64\www' . $post->photo->file);
 
         $post->delete();
 

@@ -16,7 +16,6 @@
         </div>
         {!! Form::close() !!}
 
-
         {{--delete form--}}
         {!! Form::open(['method'=>'DELETE', 'action'=>['AdminCategoriesController@destroy', $category->id]]) !!}
         <div class="form-group">

@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aa99043-0833-4aa8-9f6e-f161e6ffe990" name="Default Changelist" comment="" />
+    <list default="true" id="4aa99043-0833-4aa8-9f6e-f161e6ffe990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/1586596617Coding-Geospatial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1586597148Coding-Geospatial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1586642661Coding-Geospatial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1586642665Coding-Geospatial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/15866426731461598714man2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1586642673Coding-Geospatial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/15866426891461598714man2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1586642689Coding-Geospatial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/15867350741461598714man2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1586735107Coding-Geospatial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/tinyeditor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codehacking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codehacking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminMediasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminMediasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1585766659Coding-Geospatial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +102,10 @@
       <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Zo8o43X7L2XaerZGQTngS2KAog" />
@@ -94,7 +122,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravel58" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -115,6 +143,11 @@
       <updated>1585494257362</updated>
       <workItem from="1585494258901" duration="47951000" />
       <workItem from="1585668066284" duration="75477000" />
+      <workItem from="1586596794914" duration="11384000" />
+      <workItem from="1586642422548" duration="178000" />
+      <workItem from="1586734597695" duration="6449000" />
+      <workItem from="1586787859294" duration="891000" />
+      <workItem from="1586790907276" duration="23000" />
     </task>
     <servers />
   </component>
@@ -133,17 +166,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585763142697" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585668066485">
+    <state x="165" y="170" key="FileChooserDialogImpl" timestamp="1586790927450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585668066485" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1585730130793">
+    <state x="165" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586790927450" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586790907189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585730130793" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585599428204">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586790907189" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1586597216922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585599428204" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586597216922" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586639294273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586639294273" />
   </component>
 </project>

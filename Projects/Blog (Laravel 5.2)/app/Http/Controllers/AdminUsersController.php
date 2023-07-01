@@ -138,7 +138,7 @@ class AdminUsersController extends Controller
         //
         $user = User::findOrFail($id);
 
-        unlink('C:\wamp64\www' . $user->photo->file);
+        // unlink('C:\wamp64\www' . $user->photo->file);
 
         $user->delete();
 

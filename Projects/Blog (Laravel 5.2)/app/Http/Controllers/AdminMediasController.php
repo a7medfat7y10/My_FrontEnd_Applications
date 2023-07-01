@@ -28,8 +28,18 @@ class AdminMediasController extends Controller
 
     public function destroy($id){
         $photo = Photo::findOrFail($id);
-        unlink('C:\wamp64\www' . $photo->file);
+        // unlink('C:\wamp64\www' . $photo->file);
         $photo->delete();
         return redirect('/admin/media');
+    }
+
+    public function deleteMedia(Request $request) {
+        $photos = Photo::findOrFail($request->checkBoxArray);
+
+        foreach ($photos as $photo) {
+            $photo->delete();
+        }
+
+        return redirect()->back();
     }
 }
