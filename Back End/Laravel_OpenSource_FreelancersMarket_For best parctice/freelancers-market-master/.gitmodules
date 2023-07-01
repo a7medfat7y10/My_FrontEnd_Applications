@@ -1,0 +1,5 @@
+[submodule "laradock"]
+	path = laradock
+	url = https://github.com/m-elewa/laradock
+	branch = master
+	ignore = all
