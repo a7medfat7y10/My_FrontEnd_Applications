@@ -1,0 +1,157 @@
+.head .container ul {
+    float: right
+}
+.head .container ul li{
+    float: left;
+    margin: 5px
+}
+.head .container ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    color:#AAA
+}
+
+
+.navbar
+{
+    background-color: #FFF;
+    border: none;
+    height:70px;
+     margin-bottom: 50px
+}
+.navbar .form-group
+{
+    float: right;
+    line-height: 70px;
+  
+}
+.navbar img
+{
+    max-height:70px;
+    
+   
+}
+
+
+
+
+
+.section-three
+{
+    margin-bottom: 50px;
+  
+}
+.section-three ul
+{
+    border-right: 2px solid purple;
+    box-sizing: border-box
+}
+
+.section-three ul li
+{
+    margin-top:40px;
+    color:purple
+}
+.section-three ul li a
+{
+   
+    color:purple;
+    text-decoration: none;
+    cursor:pointer
+}
+.section-three  img
+{
+    margin-top:10px
+}
+.section-three .image
+{
+    margin-top: 30px;
+    margin-right:10px;
+    margin-bottom: 30px
+  
+    
+}
+.section-three .image img
+{
+   width:100%;
+    
+}
+.section-three .column h4
+{
+    color:purple;
+    margin-bottom:30px;
+    font-weight: 700
+}
+.section-three .column p
+{
+    font-size: 15px
+}
+.section-three i
+{
+    font-size: 50px;
+    color: purple;
+    margin-top: 5px
+}
+
+
+
+.conselhos
+{
+    margin-bottom: 40px
+}
+.conselhos  h3
+{
+    font-weight: 700;
+    padding: 20px
+}
+.conselhos p{
+    color:cornflowerblue
+}
+
+
+
+
+
+
+/* Start Ultimate Footer Section */
+
+.footer {background:#444;color:#AAA;padding-top:10px}
+
+.footer h3 {letter-spacing:1px;margin:30px 0 20px;color:#FFF}
+.footer h4 {color:#DDD}
+
+.footer a {color:#AAA}
+
+.footer a:hover {color:#FFF}
+
+.footer .three-columns {overflow:hidden}
+
+.footer .three-columns li {width: 50%;float:left;padding:5px 0}
+
+.footer .social-list {
+    overflow:hidden;
+    margin-top:100px;
+    margin-right:30px
+    
+}
+
+.footer .social-list li {
+    float:left;
+    margin-right:3px;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+.footer .social-list li:hover {opacity:1}
+
+
+.footer .copyright {
+    background:#333;
+    color:#AAA;
+    padding:15px 0;
+    margin-top:30px;
+    font-size:18px
+}
+
+/* End Ultimate Footer Section */

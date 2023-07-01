@@ -1,0 +1,538 @@
+/* start main rules */
+
+.container
+{
+    width:1400px;
+    margin:auto;
+}
+.clearfix
+{
+    clear: both;
+}
+
+/* end main rules */
+
+
+
+
+.navbar
+{
+    background-color:#4D636F;
+    color:#FFF;
+    margin-top: 0;
+    overflow: hidden;
+    height: 60px;
+    
+}
+.navbar .logo
+{
+    font-size: 18px;
+    color:#FFF;
+    line-height: 60px;   
+    float: left;
+    width: 12%;
+    background-color: #303E45
+}
+.navbar .logo:hover
+{
+    background-color: #EEE;
+}
+.navbar .logo i
+{
+    line-height: 40px;
+    font-size: 23px
+}
+
+.navbar .logo h2
+{
+    
+    color:#00BCD4;
+    
+    font-style: italic;
+    margin: 0;
+    display: inline-block;
+    
+  
+}
+.navbar .logo span
+{
+    color: #FFF
+}
+.navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    margin-left: 0;
+     margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 60px;
+    float:left;
+    width:50%;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    padding: 0 20px;
+    
+    
+}
+
+.navbar ul li:hover
+{
+    background-color: #EEE;
+}
+
+
+
+
+
+
+.navbar .account
+{
+    float:right;
+    width:4%;
+    line-height: 60px;
+    padding-top:8px;
+    padding-left: 20px;
+    padding-right: 4px
+}
+.navbar .account img
+{
+    border-radius: 50%;
+    width: 40px;
+
+    
+}
+.navbar .account:hover
+{
+    background-color: #FFF
+}
+
+
+
+
+
+
+
+.body
+{
+    color:black;
+    background-color: #E0E2E3
+}
+.body .container 
+{
+    overflow: hidden
+}
+
+
+
+
+.body .container .one
+{
+    float:left;
+    width:25%;
+    margin-right: 2%;
+    
+}
+
+
+
+.body .container .one .my-profile
+{
+    background-color: #FFF;
+    width:100%;
+ 
+    color: black;
+    text-align: center;
+    margin-bottom: 23px;
+    border-radius: 5px
+    
+}
+.body .container .one .my-profile h4
+{
+    font-weight: 400;
+    padding: 5px 5px 0 5px
+}
+.body .container .one .my-profile img
+{
+    border-radius: 50%;
+    width:80px
+}
+.body .container .one .my-profile .info
+{
+    padding: 10px;
+    text-align: left
+}
+.body .container .one .my-profile .info h6
+{
+    display:inline;
+    text-align: left
+}
+
+
+
+
+
+
+.body .container .one .personal
+{
+    margin-bottom: 15px;
+    border-radius: 3px
+}
+.body .container .one .personal details
+{
+    background-color: #7D97A5;
+    padding:10px;
+    border:1px solid #DDD;
+    margin-top: 2px;
+    color:#FFF;
+    font-weight: 200;
+    border-radius: 3px
+    
+    
+}
+.body .container .one .personal details:hover
+{
+    background-color: #CCCCCC;
+    cursor: pointer
+    
+}
+.body .one .personal details summary
+{
+    font-size: 18px;
+    font-weight: 200
+}
+
+
+
+
+
+.body .one .interests
+{
+    background-color: #FFF;
+    height:150px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding:0 10px 0 10px
+    
+    
+}
+.body .one .interests h5
+{
+    font-weight: 100;
+    padding: 10px 10px 0 10px
+}
+.body .one .interests a
+{
+    display: inline-block;
+    background-color: #7D97A5;
+    padding: 4px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+.body .container .two
+{
+    float:left;
+    width:56%;
+    margin-top:10px
+}
+
+
+
+.body .two .social
+{
+    background-color: #FFF;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+.body .two .social h4
+{
+    font-weight: 200;
+    padding-top:20px;
+    padding-left:10px;
+    font-size: 15px;
+    color:#CCCCCC
+}
+.body .two .social input
+{
+    padding-left:10px;
+    font-size: 16px;
+    width: 95%;
+    height:30px;
+    margin-left: 10px
+}
+.body .two .social button
+{
+    margin-left: 10px;
+    margin-top: 20px;
+    background: none;
+    color: #FFF;
+    
+    font-size: 15px;
+    border:2px solid #FFF;
+    font-weight: 200;
+    padding:10px 15px ;
+    background-color: #435761;
+    
+}
+.body .two .social button:hover
+{
+    background-color: #CCCCCC
+}
+
+
+
+
+
+
+
+
+
+.body .two .post 
+{
+    background-color: #FFF;
+    border-radius:5px;
+    margin-top:20px;
+    padding:20px 20px;
+    margin-bottom: 20px;
+    overflow: hidden
+    
+    
+}
+.body .two .post > img
+{
+    width:60px;
+    border-radius: 50%;
+    float:left
+    
+}
+.body .two .post h3
+{
+    display:inline-block;
+    font-weight: 200;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+    
+}
+.body .two .post span
+{
+    width:10%;
+    float:right;
+    display: inline-block;
+    margin-top:-120px;
+    color:#777;
+    font-size: 18px
+}
+.body .two .post p
+{
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 10px
+}
+.body .two .post .images
+{
+    overflow: hidden
+}
+.body .two .post .images img
+{
+    float:left;
+    width:46.5%;
+    margin-right:1.5%;
+    margin-left:1.5%
+}
+.body .two .post button
+{
+    margin-left:11px;
+    margin-top:10px;
+    background:none;
+    background-color: #435761;
+    color:#FFF;
+    font-size: 15px;
+    border:2px solid #FFF;
+    font-weight: 200;
+    padding: 10px 20px
+}
+.body .two .post button:hover
+{
+    background-color: #CCCCCC
+}
+
+.body .two .post .imag img
+{
+    margin-left: 10px;
+    width: 97%
+}
+
+
+
+
+
+
+
+
+.body .container .three
+{
+    float:left;
+    width:15%;
+    margin-left: 2%;
+    margin-top:15px
+}
+
+
+
+
+
+.body .container .three .aside
+{
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-top:15px;
+    padding: 10px 0;
+    margin-bottom:20px
+    
+}
+.body .container .three .aside img
+{
+    height:120px;
+    margin-left:15px
+}
+.body .container .three .aside h4
+{
+    margin-top:10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200
+}
+.body .container .three .aside h2
+{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center
+    
+}
+.body .container .three .aside h5
+{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center
+}
+.body .container .three .aside button
+{
+    margin-left:20px;
+    margin-top:10px;
+    background:none;
+    background-color: #DFE5E8;
+    color:black;
+    font-size: 17px;
+    border:2px solid #FFF;
+    font-weight: 200;
+    padding: 10px 70px
+}
+
+.body .container .three .aside button:hover
+{
+    background-color: #CCCCCC
+}
+
+
+
+
+
+.body .container .three .frequest
+{
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-top:15px;
+    padding: 10px 0;
+    margin-bottom:20px
+    
+}
+.body .container .three .frequest img
+{
+    height:100px;
+    margin-left:55px
+}
+.body .container .three .frequest h4
+{
+    margin-top:10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200
+}
+.body .container .three .frequest h2
+{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.body .container .three .frequest button
+{
+    background:none;
+    background-color: #F00;
+    color:#FFF;
+    font-size: 17px;
+    border:2px solid #FFF;
+    padding: 8px 40px;
+ 
+
+}
+.body .container .three .frequest button:first-of-type
+{
+    background-color: green;
+    margin-left:5px
+}
+.body .container .three .frequest button:hover
+{
+    background-color: #E0E0E0
+}
+
+
+
+
+
+
+.body .three .ads
+{
+    background-color: #FFF;
+    color:black;
+    border-radius: 3px;
+    height:60px;
+    text-align: center;
+    padding: auto;
+    padding-top:28px;
+    font-size: 16px
+}
+
+
+
+
+
+
+.footer
+{
+    color: #FFF;
+    background-color: #353535;
+    padding:20px 0;
+    text-align: center;
+    overflow: hidden
+}
+.footer .ahmed
+{
+    text-align: center;
+    
+}

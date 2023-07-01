@@ -1,0 +1,83 @@
+body
+{
+    background-color: black
+}
+.main-box
+{
+    position:absolute;
+    top:150px;
+    left:450px;
+    border: 1px solid ;
+    padding: 20px;
+    background-color: #353535;
+    color:white;
+    margin-bottom: 100px
+}
+
+
+
+
+.main-box .login-box
+{
+    margin:20px
+}
+.main-box .login-box h2
+{
+    text-align: center;
+    color:#FFF
+}
+.main-box .login-box .input-box
+{
+    
+}
+.main-box .login-box input
+{
+    width:500px;
+    height:40px;
+    margin:20px;
+    margin-left:50px
+}
+.main-box .login-box .signin
+{
+    margin:5px;
+    background:none;
+    padding:10px;
+    width:100px;
+    margin-left: 240px;
+    margin-top:20px;
+    background-color: #8E867B;;
+    border:2px solid #FFF;
+}
+
+
+
+
+.main-box .signup-box
+{
+    margin:20px;
+    
+}
+
+.main-box .signup-box h2
+{
+    text-align: center;
+    color:#FFF
+}
+.main-box .signup-box p
+{
+    margin:40px
+}
+.main-box .signup-box a
+{
+    color:#00BCD4;
+    
+    margin-left:200px;
+    margin-top:100px
+    
+}
+.main-box .signup-box a:hover
+{
+    color:blue;
+    cursor:pointer;
+   
+}

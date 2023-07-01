@@ -1,0 +1,185 @@
+
+
+
+.container
+{
+    width:1200px;
+    margin:auto;
+}
+.clearfix
+{
+    clear: both;
+}
+
+/* end main rules */
+
+.logo
+{
+    background-color: #8E867B;
+    border: 1px solid black;
+    
+    text-align: center;
+    
+}
+
+.logo h1
+{
+    
+    color:#00BCD4;
+    
+    font-style: italic;
+  
+}
+.logo span
+{
+    color: #FFF
+}
+
+.navbar
+{
+    background-color:#252F31;
+    color:#FFF;
+    margin-top: 0
+    
+}
+
+.navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    margin-left: 450px;
+     margin-top: 0
+
+}
+
+.navbar ul li
+{
+    float: left;
+    padding: 20px;
+    margin: 10px
+    
+}
+
+.about
+{
+    overflow: hidden;
+}
+.about .image
+{
+    float:left;
+    width:45%;
+    margin: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 0
+}
+.about .image img
+{
+    width:100%;
+    height: 450px;
+    
+}
+.about .info 
+{
+    float: left;
+    text-align: left;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 50px
+}
+.about .info h2
+{
+    margin:40px 0 20px 40px;
+    color: #414141;
+    
+}
+.about .info > p
+{
+    line-height: 1.7;
+    color:#555;
+
+    margin: 0 0 10px 40px;
+}
+.about .info button
+{
+    margin: 0 0 10px 40px;
+        font-size: 20px;
+    border:2px solid #FFF;
+    font-weight:500;
+    padding:10px 30px;
+    background-color: #00BCD4;
+    color: #FFF;
+    margin-left: 300px;
+    margin-top: 40px
+}
+
+.content
+{
+    overflow: hidden
+}
+.content .news
+{
+    width:30%;
+    float:left;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin-right: 3%;
+    margin-left: 2%;
+    text-align: center;
+    background-color: #07A2B6;
+    color: #FFF;
+    height:400px
+}
+.content .testimonials
+{
+    width: 30%;
+    float:left;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin-right: 3%;
+    text-align: center;
+    background-color: #07A2B6;
+    color: #FFF;
+    height:400px
+}
+.content .sale
+{
+    width:30%;
+    float:left;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin-right: 2%;
+    text-align: center;
+    background-color: #07A2B6;
+    color: #FFF;
+    height:400px
+}
+.content p
+{
+    padding: 10px;
+    line-height:1.6;
+    
+}
+
+
+
+ .footer
+{
+    color: #FFF;
+    background-color: #353535;
+    padding:20px 0;
+    text-align: center;
+    
+    margin-top: 40px;
+    text-align: center
+}
+.footer .ahmed
+{
+    text-align: center;
+
+}
+.footer span
+{
+    color:#00BCD4;
+}
