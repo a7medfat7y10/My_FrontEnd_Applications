@@ -7,7 +7,7 @@
             <!--Left Column col1-->
             <div class="col1">
               <h1>socialapp</h1>
-              <p>Welcome to our socialapp, we hope you like it</p>
+              <p>Welcome to our socialapp, we hope you like it </p>
             </div>
             <!--End Col1-->
 
@@ -75,6 +75,7 @@ export default {
     PasswordReset
   },
   data() {
+
     return {
       showLoginForm: true,
       showPasswordReset: false,
