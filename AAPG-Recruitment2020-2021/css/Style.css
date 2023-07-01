@@ -1,0 +1,160 @@
+/* Main Css Rules  for Main Elements in The project */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.back-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/Back-01.jpg");
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+.back-photo .left {
+    float: left;
+    width: 40%;
+}
+.back-photo .right {
+    float: left;
+    width: 60%;
+
+}
+.back-photo .left .joe{
+    display: block;
+    width:150px;
+    margin: auto;
+}
+.back-photo .left .online-recruit{
+    margin-top: 6%;
+    text-align: center;
+    font-size: 45px;
+    border: 1px solid #DDD;
+    width: 65%;
+    background: #FFF;
+    color: #9C1712;
+    padding: 20px;
+    margin-left: 15%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.back-photo .left .campaign{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+    padding: 15px;
+}
+.back-photo .right .heading {
+    color: #a18d8d;
+    font-size: 70px ;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6%;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.back-photo .right .heading .logo {
+    width: 100px;
+    position: relative;
+    top: -5px;
+}
+
+
+
+#tap2, #tap3 {
+    display: none;
+}
+
+
+.form{
+    width: 70%;
+    margin-left: 15%;
+}
+.form-group {
+    margin-bottom: -5px;
+}
+textarea.form-control {
+    resize: none;
+    height: 100px;
+}
+
+.question {
+    padding: 10px;
+    background: #FFF;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn {
+    margin-top:15px;
+    background-color: #A31916;
+    color: #FFF;
+    outline: none;
+}
+.btn:hover {
+    color: #FFF;
+    outline: none;
+}
+
+
+.pagination-1,.pagination-2, .pagination-3 {
+    position: absolute;
+    bottom: 10px;
+}
+.pagination-3 {
+    right: 25%
+}
+.pagination-2 {
+    right: 28%
+}
+.pagination-1 {
+    right: 31%;
+}
+
+/*  End of Main Css Rules  */
+
+/*  Start Header */
+.logo-mobile {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@media (max-width: 992px) {
+    .back-photo {
+        /* background-image: url("../images/Back.jpg"); */
+        background-image: none;
+        overflow: scroll;
+        /* position: relative; */
+        background-color: #E3E3E3;
+    }
+    .form {
+        width: 100%;
+        margin-top: 100%;
+    }
+    .back-photo .right {
+        width:83%;
+    }
+    .footer {
+        position: relative;
+        margin-top: 60px;
+    }
+    .pagination-3 {
+        right: 35%
+    }
+    .pagination-2 {
+        right: 50%
+    }
+    .pagination-1 {
+        right: 65%;
+    }
+}
