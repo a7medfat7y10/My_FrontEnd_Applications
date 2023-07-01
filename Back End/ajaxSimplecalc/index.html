@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo">
+  No #1 : <input type="text" id="no1"> <br>
+  No #2 : <input type="text" id="no2"> <br>
+  <button type="button" onclick="calc()" > Add </button>
+</div>
+  <script>
+    function calc() {
+      var xhttp = new XMLHttpRequest();
+      
+      var no1 = document.getElementById('no1').value;
+      var no2 = document.getElementById('no2').value;
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "print.php?no1=" + no1 + "&no2=" + no2, true);
+        xhttp.send();
+    }
+
+  </script>
+
+</body>
+</html>

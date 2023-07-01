@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    position: relative;
+}
+.back-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+
+/*form*/
+.form{
+    width: 60%;
+    margin-left: 20%;
+}
+.form-group {
+    margin-bottom: -5px;
+}
+textarea.form-control {
+    resize: none;
+    height: 60px;
+}
+
+.question {
+    background: #FFF;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn {
+    margin-top: 15px;
+    background-color: blue;
+    color: #FFF;
+    outline: none;
+}
+.btn:hover {
+    color: #FFF;
+    outline: none;
+}

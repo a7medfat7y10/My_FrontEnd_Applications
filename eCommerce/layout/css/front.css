@@ -1,0 +1,187 @@
+/* Main Css Rules  for Main Elements in The project */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    font-size: 16px
+}
+span.asterisk {
+    position : absolute;
+    top:8px;
+    right:30px;
+    color: #D20707;
+    font-size: 30px
+}
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #666;
+    margin:40px 0
+}
+
+/*  End of Main Css Rules  */
+/* start header page */
+.upper-bar {
+    padding:10px;
+    background-color: #FFF
+}
+.upper-bar .my-image {
+    width:35px;
+    height:35px;
+    margin-right: 5px
+}
+/* end header page */
+/* start login page */
+.login-page form{
+    max-width:380px;
+    margin:auto
+}
+.login-page form input {
+    margin-bottom: 10px
+}
+.login-page .form-control {
+    position: relative;
+}
+.login-page .selected {
+    color: #B22020;
+}
+.login-page h1{
+    color: #C0C0C0;
+}
+.login-page h1 span {
+    cursor: pointer;
+}
+.login-page .signup {
+    display: none
+}
+.login-page .input-container {
+    position: relative;
+}
+.login-page  span.asterisk {
+    position: absolute;
+    top: 3px;
+    right: 15px;
+}
+.sign.selected {
+    color:#5cb85c
+}
+.log.selected {
+    color:#337ab7
+}
+/* end login page */
+/* start categories page */
+.item-box {
+    position:relative;
+}
+.item-box .price-tag {
+    position: absolute;
+    left:0;
+    top:10px;
+    background-color: #b4b4b4;
+    padding: 2px 10px;
+    font-weight: bold;
+    color:#FFF
+}
+.item-box .waiting-approval {
+    position: absolute;
+    top: 40px;
+    left:0;
+    background-color: #b85a5a;
+    color: #FFF;
+    padding: 3px 5px;
+}
+.item-box .caption p {
+    height:44px;
+    max-height: 44px
+}
+/* End categories page */
+/*start profile*/
+.information {
+    margin-top:20px ;
+}
+.information ul {
+    margin:0;
+    padding: 0
+}
+.information ul li {
+    padding: 10px
+} 
+.information ul li:nth-child(odd) {
+    background-color: #EEE
+}
+.information ul li span {
+    display: inline-block;
+    width: 150px
+}
+.information .btn {
+    margin-top: 10px
+}
+/*end profile*/
+/*start Show item page*/
+.item-info h2 {
+    padding: 10px;
+    margin:0
+}
+.item-info p {
+    padding: 10px
+}
+.item-info ul li {
+    padding:10px;
+
+}
+.item-info ul li:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+.item-info ul li span {
+    display: inline-block;
+    width: 200px
+}
+.add-comment {
+    margin-left:20px;
+    padding: 0
+
+}
+.add-comment .box {
+    margin-bottom :10px;
+    width:60%;
+    height: 116px;
+}
+.comment-box {
+    margin-bottom:20px
+}
+.comment-box img{
+    max-width: 100px;
+    margin-bottom: 10px
+}
+.comment-box .lead {
+    background-color: #e0e0e0;
+    position: relative;
+    padding:10px;
+    margin-top:25px
+}
+.comment-box .lead::before {
+    content: "";
+    width:0;
+    height: 0;
+    border-width:15px;
+    border-style: solid;
+    border-color:transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left:-28px;
+    top: 10px
+}
+/*end Show item page*/
+/* start tags*/
+.tag {
+    display: inline-block;
+    background-color: #e2e2e2;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #666;
+    margin-right: 5px
+}
+/* start tags*/
+.custom-hr {
+    border-top: 1px solid #c9c9c9;
+}

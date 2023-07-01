@@ -1,0 +1,68 @@
+
+.usersform {
+    padding: 50px 0;
+  }
+  
+  p.msg-success{
+   position: fixed;
+   top: 10px;
+   left: 10px;
+  }
+  
+  body {
+    background: #378cb3;
+    background: -moz-linear-gradient(270deg,#093d6c 0%, #a4c9f2 100%);
+    background: -webkit-linear-gradient(270deg, #093d6c 0%, #a4c9f2 100%);
+    background: linear-gradient(270deg, #093d6c 0%, #a4c9f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5a9ae0",endColorstr="#5a9ae0",GradientType=1); 
+  }
+  .main-row h2{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2.2em;
+    padding: 51px 0 0;
+  }
+  .sub-row {
+    padding: 15px;
+  }
+  .usersform .icon {
+    width: 35px;
+    background-color: #0f4f79;
+    color: #04141e;
+    padding: 7px 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  .usersform .form-group .row input,
+  .usersform .form-group .row textarea ,
+  .usersform .form-group .row select {
+    width: calc(100% - 35px);
+    border-radius: 0 5px 5px 0;
+    margin: 0 !important;
+  }
+  
+  form.usersform .text-light {
+    margin: 8px;
+    padding-left: 30px;
+    margin-bottom: -5px;
+    transition: a11 .8s linear;
+  } 
+  
+  .form-group {
+    margin-bottom: 2rem;
+    transition: a11 .8s linear;
+  }
+  .form-group .row{
+    transition: a11 .8s linear;
+  }
+  
+  .btn-spe {
+    background: #104f79;
+    color: #e9f8ff;
+  }
+  
+  .form-group label{
+    padding: 8px 0px 0px 37px;
+  }
+.tab2, .tab3 {
+  display: none;
+}

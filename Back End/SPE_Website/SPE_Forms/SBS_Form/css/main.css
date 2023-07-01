@@ -1,0 +1,163 @@
+
+.lay {
+  background: url("../img/back1.png") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position: center;
+
+}
+.lay2 {
+  background-color: #4a0b57c4;
+  height: 100%;
+  margin: 0;
+  min-height: 660px;
+  padding: 0;
+  min-height: 800px;
+}
+
+.main-div{
+  margin: 25px 0 60px;
+  box-shadow: 1px 1px 20px -9px #14080c;
+  overflow: hidden;
+  /* height: 600px ; */
+}
+.main-div .col{
+  margin: 0;
+  padding: 0;
+  height: 580px ;
+  overflow: hidden;
+  min-height: 330px;
+}
+
+.main-div .left-div{
+  height: 100%;
+  background: url("../img/front1.png") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px;
+  min-height: 687px;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+
+
+.main-div .left-div p{
+  padding: 0px;
+  margin-top: 5px;
+}
+
+
+.main-div .right-div{
+  padding: 5px 38px;
+  height: 100%;
+}
+
+.center-all{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+textarea {
+  min-height: 50px !important;
+  max-height: 70px !important;
+  padding-top: 20px !important;
+  padding-bottom: 36px !important;
+}
+
+hr {
+  margin: 15px 0;
+}
+ul li,ul:not(.browser-default)>li{
+  list-style-type: circle;
+  margin-left: 13px;
+}
+li{
+  list-style-type: disc;
+  margin-left: -4px;
+} 
+
+p.small{
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+}
+@media(max-width: 600px){ /*  mobi     */
+  textarea {
+    padding-top: 15px !important;
+    min-height: 65px !important;
+    max-height: 270px !important;
+  }
+  textarea.long-q {
+    padding-top: 35px !important;
+    min-height: 80px !important;
+  }
+  .main-div .col,.main-div {
+    height: auto;
+  }
+  .main-div .left-div h5{
+    font-size: 15px;
+  }
+  .main-div .left-div {
+    min-height: 335px !important;
+  }
+}
+
+
+@media(min-width: 600px){
+  textarea {
+    max-height: 70px !important;
+  }
+}
+
+
+.msg-success {
+  margin: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+.input-field {
+  margin-bottom: 0rem;
+}
+  /* margin-bottom: 1rem;
+  /* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+textarea.invalid {
+  background-color: #ffdddd;
+}
+  /* Hide all steps by default: */
+.tab {
+  display: none;
+}
+  /* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+  /* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #081756;
+}

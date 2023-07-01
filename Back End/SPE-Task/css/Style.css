@@ -1,0 +1,70 @@
+/* Main Css Rules  for Main Elements in The project */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.back-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/back-blue.jpg");
+    background-size: cover;
+    overflow: auto;
+    z-index: 1;
+}
+
+
+
+.form{
+    width: 50%;
+    margin-left: 25%;
+    color:#FFF;
+    margin-top: 9%;
+}
+.form-group {
+    margin-bottom: -5px;
+}
+.form-control {
+    border: none;
+    background: #EEE;
+    border-radius: 0;
+    border-bottom: 4px solid #3e00ff;
+
+}
+thead {
+    background-color: #000;
+}
+table {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top:15px;
+    background-color: #3e00ff;
+    color: #FFF;
+    outline: none;
+}
+.btn:hover {
+    color: #FFF;
+    outline: none;
+}
+
+
+
+/*  End of Main Css Rules  */
+
+/*  Start Header */
+@media (max-width: 992px) {
+
+    .form {
+        width: 90%;
+        margin-top: 9%;
+        margin-left: 5%;
+    }
+}

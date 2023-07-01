@@ -1,0 +1,32 @@
+
+form * {
+	margin-bottom: 10px;
+}
+.log-page form{
+	padding: 18px;
+    background-color: #fbfbfb;
+    box-shadow: 1px 1px 4px -1px black;
+}
+
+td {
+    padding: 0.75rem 2px;
+    min-width: 25px;
+}
+
+.btn {
+	margin-bottom: 5px;
+}
+
+#add , #delete, #edit ,#view {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 11;
+    background-color: #ffffff;
+}
+
+table .btn {
+    padding: 0 3px;
+    font-size: 14px;
+    margin: -1px;
+}

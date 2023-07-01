@@ -1,0 +1,352 @@
+/* Main Css Rules  for Main Elements in The project */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+@media (max-width: 767px) {
+    body{
+        margin-bottom:80px
+    }
+}
+h1 {
+    font-family: 'ar_essenceregular', serif;
+  font-weight: bold;
+  color: #1A2334;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 5px rgba(140, 140, 140, 0.5);
+
+}
+
+
+}
+/*  End of Main Css Rules  */
+
+/*  Start login */
+.login {
+    width:300px;
+    margin:100px auto;
+}
+.login input {
+    margin-bottom:10px
+}
+.login .form-control {
+    background-color: #eaeaea;
+}
+.login .btn {
+    background-color: #1e7e34
+}
+/*  end login */
+
+
+
+/*Navbar*/
+.navbar-inverse {
+    background-color: #1a2334;
+    border-radius: 0;}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+    font-weight:bold
+}
+.navbar-inverse .navbar-nav > li:hover > a {
+    color:#1e7e34
+}
+
+
+
+/*Navbar*/
+
+
+
+
+/* Start dashboard*/
+.home-stats .stat {
+
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius:10px;
+    position: relative;
+    overflow: hidden;
+}
+.home-stats .stat .info {
+    float:right;
+}
+.home-stats .stat i {
+    font-size:70px;
+    position:absolute;
+    top:35px;
+    left:30px
+}    
+.home-stats .stat span {
+    display: block;
+    font-size: 60px
+}
+.home-stats .stat span a {
+    color:#FFF;
+}
+.home-stats .stat span a:hover {
+    text-decoration: none
+}
+
+.home-stats .st-members {
+    background-color: #3498db
+}
+.home-stats .st-pending {
+    background-color: #9b59b6
+}
+.home-stats .st-items {
+    background-color: #e74c3c
+}
+.home-stats .st-comments {
+    background-color: #16a085
+}
+
+
+.latest {
+    margin-top:30px;
+}
+.latest .toggle-info {
+    color: #999;
+    cursor: pointer;
+}
+.latest .toggle-info:hover {
+    color : #444
+}
+.latest-users {
+    margin-bottom: 0;
+
+}
+.latest-users li {
+    padding: 10px;
+    overflow: hidden;
+}
+.latest-users li:nth-child(odd) {
+    background-color: #EEE;
+
+}
+.latest-users .btn-success {
+    padding: 2px 8px;
+}
+.latest-users .btn-danger {
+    padding: 2px 8px;
+    margin-right:5px
+}
+
+.latest-users .btn-info {
+    padding: 2px 8px;
+    margin-right:5px
+}
+.latest .comment-box {
+    margin: 5px 0 10px;
+}
+.latest .comment-box .member-name,
+.latest .comment-box .member-comment {
+    float:left;
+}
+.latest .comment-box .member-name {
+    margin-right:20px;
+    width:80px;
+    text-align: center;
+    position: relative;
+    top:10px;
+    text-transform: capitalize
+}
+.latest .comment-box .member-comment {
+    width: calc(100% - 100px);
+    background-color: #e3dbdb;
+    padding:10px;
+    position: relative;
+}
+.latest .comment-box .member-comment:before {
+    content:"";
+    display: block;
+    position: absolute;
+    left: -28px;
+    top:5px;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-color: transparent #e3dbdb transparent transparent;
+    border-width:15px
+}
+
+
+/* End dashboard*/
+
+/*Start members page*/
+
+.form-control {
+    position : relative;
+}
+span.asterisk {
+    position : absolute;
+    top:8px;
+    right:30px;
+    color: #D20707;
+    font-size: 30px
+}
+.show-password {
+    position: absolute;
+    top:14px;
+    right:50px
+}
+
+.main-table {
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+    margin-bottom: 100px
+}
+.main-table td {
+    background-color: #FFF;
+    vertical-align: middle !important;
+    
+
+}
+.main-table.events tr td:first-child {
+    width:5%
+}
+.main-table.events tr td:last-child {
+    width:15%
+}
+.main-table.events tr td:nth-child(5) {
+    width:15%
+}
+
+.main-table tr:first-child td {
+    background-color:#333;
+    color: #FFF
+}
+.main-table .btn {
+    padding:3px 10px;
+    
+}
+.add {  
+    position: relative ;
+    top:-70px 
+}
+@media (max-width: 767px ) {
+    .add {top:0}
+}
+.activate {
+    margin-left: 5px;
+}
+.manage-members img {
+    width:50px;
+    height: 50px
+}
+/*End members page*/
+
+
+
+
+/*All Css*/
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@font-face {
+    font-family: 'ar_essenceregular';
+    src: url("http://eegs-susc.org/layout/css/fonts/aressence.woff2") format('woff2'),
+      url("http://eegs-susc.org/layout/css/fonts/aressence.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.heading {
+  font-family: 'ar_essenceregular', serif;
+  font-weight: bold;
+  color: #1A2334;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 5px rgba(140, 140, 140, 0.5); }
+
+.event-boxs {
+    margin-bottom:100px
+} 
+
+.event-area .single-event {
+  -webkit-box-shadow: 1px 14px 14px rgba(113, 113, 155, 0.3);
+          box-shadow: 1px 14px 14px rgba(113, 113, 155, 0.3);
+          
+          }
+
+.event-area .single-event .cnt {
+     border-left:solid 4px #226131;
+  padding: 10px 20px;
+  height:160px;
+  }
+
+.event-area .single-event .event-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  max-height:250px;
+ 
+  }
+  .event-area .single-event .img-fluid{ /*added to edit the images height in events*/
+      height:400px;
+      width:100%;
+  }
+  .event-area .single-event img {
+      height:250px !important;
+  }
+
+.event-area .single-event .event-name {
+  text-transform: capitalize; }
+
+.event-area .single-event .event-name h3 {
+  font-size: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.event-area .single-event .event-content {
+  color: dimgray;
+  font-size: 20px; }
+
+.event-area .single-event .event-VM {
+     border-left:solid 4px #226131;
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px; }
+
+.event-area .single-event .event-VM .MV-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background: linear-gradient(-45deg, #DDD, #226131 0%, #0f912e 100%, #DDD);
+  color: #FFF;
+  border-radius: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  cursor: pointer; }
+
+.event-area .single-event .event-VM .MV-link:hover {
+  background: #FFF;
+  color: #226131; }
+/*-------------------------------------------------------------------*/
+/*All CSS*/
+/*Start Copy right footer*/
+.copyright {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #1A2334;
+  color: #FFF; }
+
+.copyright p {
+  margin: 0;
+  word-spacing: 5px; }
+
+.copyright p span {
+  color: #fc3; }
+
+.copyright .season {
+  font-size: 30px; }
+
+.copyright .season p span {
+  margin: 0 20px; }

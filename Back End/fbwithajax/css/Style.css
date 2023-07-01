@@ -1,0 +1,55 @@
+/* Main Css Rules  for Main Elements in The project */
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color:skyblue !important
+}
+.text-center {
+    color:white;
+    font-size: 40px;
+    font-weight: bold
+}
+label {
+    color:#b8aeaeaa
+}
+.textarea {
+    width: 100% !important;
+    margin:auto !important;
+    display: block !important;
+    margin-bottom:20px;
+    border:none ;
+    border-radius: 0;
+    outline: none !important;
+    -webkit-appearance: none !important;
+    resize: none;
+    border-bottom:3px solid #ede9e9;
+   height:100px !important
+
+}
+.textarea:focus {
+    outline: none !important;
+    border-bottom: 3px solid skyblue;
+    box-shadow: none
+}
+.card {
+    background-color: #FFF;
+    padding:20px;
+    border-radius:10px;
+
+}
+input[type="submit"] {
+    margin-top:20px
+}
+/*  End of Main Css Rules  */
+.icon {
+    width:20%;
+    float:right
+}
+.action {
+    cursor: pointer;
+    
+}
+.action:hover {
+    color:#DDD
+}

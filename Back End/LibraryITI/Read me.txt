@@ -1,0 +1,6 @@
+1-import library_system.sql file database into your database
+2-The directory admin is for the librarian to add or remove or edit books 
+and add or delete other admins
+You can login into the admin  panel http://localhost/libraryiti/admin/ 
+user: ahmed
+pass: 123456

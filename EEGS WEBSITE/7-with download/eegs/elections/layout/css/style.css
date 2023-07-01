@@ -1,0 +1,136 @@
+/* Main Css Rules  for Main Elements in The project */
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@font-face {
+    font-family: 'ar_essenceregular';
+    src: url("http://eegs-susc.org/layout/css/fonts/aressence.woff2") ,
+      url("http://eegs-susc.org/layout/css/fonts/aressence.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1,h2,h3, nav {
+    font-family: 'Yanone Kaffeesatz', sans-serif;  
+}
+
+/*  End of Main Css Rules  */
+/*login*/
+
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f4f4f4;
+  font-size: 16px
+}
+span.asterisk {
+  position : absolute;
+  top:8px;
+  right:30px;
+  color: #D20707;
+  font-size: 30px
+}
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #666;
+  margin:40px 0
+}
+
+/*  End of Main Css Rules  */
+/* start header page */
+.upper-bar {
+  padding:10px;
+  background-color: #FFF
+}
+.upper-bar .my-image {
+  width:35px;
+  height:35px;
+  margin-right: 5px
+}
+/* end header page */
+/* start login page */
+.login-page{
+  position: relative;
+  top: 132px;
+}
+.login-page form{
+  max-width:380px;
+  margin-top: 100px;
+  margin:auto
+}
+.login-page form input {
+  margin-bottom: 10px
+}
+.login-page .form-control {
+  position: relative;
+}
+.login-page .selected {
+  color: #B22020;
+}
+.login-page h1{
+  color: #C0C0C0;
+}
+.login-page h1 span {
+  cursor: pointer;
+}
+.login-page .signup {
+  display: none
+}
+.login-page .input-container {
+  position: relative;
+}
+.login-page  span.asterisk {
+  position: absolute;
+  top: 3px;
+  right: 15px;
+}
+.sign.selected {
+  color:#5cb85c
+}
+.log.selected {
+  color:#337ab7
+}
+/* end login page */
+
+
+
+/*end login*/
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    color:#FFF;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#FFF;
+    font-size: 22px;
+}
+
+/**/
+
+/**/
+
+
+/*-------------------------------------------------------------------*/
+/*Start Copy right footer*/
+.copyright {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #1A2334;
+  color: #FFF; }
+
+.copyright p {
+  margin: 0;
+  word-spacing: 5px; }
+
+.copyright p span {
+  color: #fc3; }
+
+.copyright .season {
+  font-size: 30px; }
+
+.copyright .season p span {
+  margin: 0 20px; }
