@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Create your first Html5 page </title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="file.js"></script>
+        <!--[if lt IE iE 9] >
+            <script src="html5shiv.min.js"></script>
+        <![end if] -->
+    </head>
+    <body>
+        <header class="main">
+            <h1>Html5 course</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+            
+        </nav>
+        
+        <main>
+            <p>Welcome to our <span><mark>Html5</mark> course </span> By Ahmed Fathy</p>
+        
+        </main>
+        
+        <div class="post">
+            <article>
+                <header>
+                    <h3>Our New Framework Milestone</h3>
+                    <P>Created By <mark>Ahmed Fathy</mark> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <p>This is Article content number #01</p>
+                    <div>
+                        Design: <progress value="7" max="10"></progress><br>
+                        Coding: <progress value="65" max="100"></progress>
+                    </div>
+                </section>
+            </article>
+        
+            <article>
+                <header>
+                    <h3>Article About Details</h3>
+                    <P>Created By <mark>Ahmed Fathy</mark> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <p>This is Article content number #02</p>
+                    <p>
+                        <details>
+                            <summary>References</summary>
+                            <ul>
+                                <li>ref 1</li>
+                                <li>ref 2</li>
+                                <li>ref 3</li>
+                            </ul>
+                        </details>
+                    </p>
+                </section>
+            </article>
+        
+            <article>
+                <header>
+                    <h3>Article About using &lt;wbr&gt;</h3>
+                    <P>Created By <mark>Ahmed Fathy</mark> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <p>This is Article content number #03</p>
+                    <div class="long-link">
+                        https://<wbr>www.testinglonglink.com<wbr>/products.php?<wbr>id=200&cat=100&test=mainsection
+                    </div>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Article About using code inside &lt;Figure&gt;</h3>
+                    <P>Created By <mark>Ahmed Fathy</mark> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <p>This code describe the div syntax</p>
+                    <figure>
+                        <figcaption>This div syntax 1-3</figcaption>
+                        <code>
+                            &lt;div&gt;This is normal syntax for div &lt;/div&gt;
+                        </code>
+                    </figure>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Article About using Image inside &lt;Figure&gt;</h3>
+                    <P>Created By <mark>Ahmed Fathy</mark> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <p>This code describe the image in figure</p>
+                    
+                    <figure class="img-figure">+
+                        <img src="nature.jpg" title="Nature">
+                        <img src="nature1.jpg" title="Nature">
+                        <img src="Ahmed.jpg" title="Nature">
+                        <figcaption> Three images contain Alahly see The Full List <a href="#">Here</a></figcaption>
+                    </figure>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Article About using &lt;Video&gt;</h3>
+                    <P>Created By <span><mark>Ahmed Fathy</mark></span> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <h4>Today's Video</h4>
+                    <video controls width="320" height="300" loop muted poster="" preload="auto">
+                        <source src="002.MKV" type="">
+                        <track src="ahmed.vtt" kind="subtitles" srclang="en" label="english">
+                        Your browser doesnot support video technology
+                    </video>
+                </section>
+            </article>
+            
+            
+            
+            <article>
+                <header>
+                    <h3>Article About using &lt;Form input&gt;</h3>
+                    <P>Created By <span><mark>Ahmed Fathy</mark></span> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <p>This is new form input field</p>
+                    <form class="html5">
+                        <labe>Color</labe>
+                        <input type="color" name="theme" value="#0000FF">
+                        <label>Range</label>
+                        <input type="range" name="choose" min="0" max="100" step="25" value="1">
+                        <label>Number</label>
+                        <input type="number" min="0" max="30" step="10">
+                        <label>Email</label>
+                        <input type="email" name="email">
+                        <label>Search</label>
+                        <input type="search" name="search">
+                        <label> Url</label>
+                        <input type="url" name="link">
+                        <label>Time</label>
+                        <input type="time" name="timing">
+                        <label>Datetime</label>
+                        <input type="datetime-local" name="datetime">
+                        <label>Date</label>
+                        <input type="date" name="date">
+                        <label>Month</label>
+                        <input type="month" name="month">
+                        <label>Week</label>
+                        <input type="week" name="week">
+                        <input type="submit" value="send">
+                    </form>
+                </section>
+            </article>
+            
+            <article>
+                <header>
+                    <h3>Article About using &lt;Form new attributes&gt;</h3>
+                    <P>Created By <span><mark>Ahmed Fathy</mark></span> on <span>8/9/2018</span></P>
+                </header>
+                <section>
+                    <form  id="main-form" class="html5" action="process.php" method="get" enctype="multipart/form-data" >
+                        <label>Username</label>
+                        <input type="text" name="username" autofocus="off" placeholder="Type your username" required >
+                        <label>Email</label>
+                        <input type="email" name="mail" autocomplete="off" multiple required>
+                        <label>Password</label>
+                        <input type="password" name="password">
+                        <label>Number</label>
+                        <input type="number" min="0" max="30" step="10">
+                        <input type="file" multiple>
+                        <label>Read only</label>
+                        <input type="text" readonly value="read only">
+                        <label>Muslim</label>
+                        <input type="radio" name="radio">
+                        <label>Christian</label>
+                        <input type="radio" name="radio">
+                        <label>Reset</label>
+                        <input type="reset" name="reset">
+                        <label>check Box</label>
+                        <input type="checkbox" name="checkbox">
+                        <input type="submit" value="default submit">
+                        <input type="submit" formaction="other.php" formmethod="post" value="other submit">
+                        <input type="submit" formnovalidate formtarget="_blank" value="novalidate in new window submit">
+                    </form>
+                    <label>Nickname</label>
+                    <input type="text" name="nickname" form="main-form" disabled> 
+                </section>
+            </article>
+        </div> 
+        
+        
+        
+        <aside>
+            <section class="links">
+                <h3>Categories</h3>
+                <ul>
+                    <li>Intro</li>
+                    <li>Semantics</li>
+                    <li>Api</li>
+                    <li>New Attributes</li>
+                    <li>Multimedia Elements</li>
+                </ul>
+            </section>
+            <section class="meters">
+                <h3>Performance</h3>
+                <div>
+                    Cpu: <meter
+                            min="0"
+                            max="1"
+                            value="0.6"
+                            low="0.4"
+                            high="0.8"
+                            optimum="0.7">
+                        </meter>
+                </div>
+            </section>
+            <section class="top-member">
+                <h3>Top members</h3>
+                <ul>
+                    <li>Ahmed:90 points</li>
+                    <li>Mohamed:80 points</li>
+                    <li>Ali:70 points</li>
+                    <li><bdi>حسين</bdi>:60 points</li>
+                </ul>
+                       
+                
+            </section>
+            <section class="poll">
+                <h3>What is your best broeser?</h3>
+                <form>
+                    <input list="browsers">
+                    <datalist id="browsers">   
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Internet Explorer">
+                        <option value="Mozilla Firefox">
+                        <option value="Safari">
+                    </datalist> 
+                    <input type="submit" value="choose">
+                </form>
+            </section>
+            <section class="calculate-age">
+                <h3>Calculate age in days</h3>
+                <form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' Days'">
+                    <input type="text" name="age">
+                    <input type="hidden" name="days" value="365">
+                    <output name="result"></output>
+                </form>
+            </section>
+            <section>
+                <h3>Today's Audio</h3>
+                <audio controls autoplay loop muted preload="auto">
+                    <source src="001.mp3" type="audio/mpeg">
+                    <source src="001.ogg" type="audio/ogg">
+                    Yoyr Browser doesnot support audio technology
+                </audio>
+            </section>
+        </aside>
+        
+        <div class="clearfix"></div>
+        
+        <footer>
+            Copyright 2015 &copy; All Right Reserved
+        </footer>
+    </body>
+</html>
