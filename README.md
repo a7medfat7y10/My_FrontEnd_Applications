@@ -1,2 +1,1 @@
-# My_FrontEnd_Applications
- My Applicatoins using HTML & CSS Self Learning
+My_Self_Learning_FullStack_Laravel_VueJS_Journey
