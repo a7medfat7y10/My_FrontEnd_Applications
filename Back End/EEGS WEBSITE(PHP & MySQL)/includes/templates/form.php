@@ -25,13 +25,18 @@
            }
        }
 
-       $headers = 'From :' . $email . '\r\n';
-       $eegsEmail = 'AbdalrahmanAlmesery92460@gmail.com';
-       $sub = 'Contact Form';
+    //    $headers = 'From :' . $email . '\r\n';
+    //    $eegsEmail = 'ahmedfathy.1074@gmail.com';
+    //    $sub = 'Contact Form';
 
 
     if(empty($formError)) {
-        mail($eegsEmail, $sub, $message, $headers);
+        // mail($eegsEmail, $sub, $message, $headers);
+
+
+
+        $stmt = $con->prepare("INSERT INTO contact(fullname, email,subject ,message, date) VALUES (?, ?, ?, ?, now() ) ");
+        $stmt->execute([$user,  $email, $subject, $message]);
         echo '<div class="mt-4 mb-4 alert text-center alert-success">Message Send Successfully <br> We Will Contact You Soon</div>';
         $user = '';
         $message = '';

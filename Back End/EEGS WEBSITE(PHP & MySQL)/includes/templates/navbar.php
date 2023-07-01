@@ -63,6 +63,10 @@
                     <i class="nav-icon icon-basic-todo"></i>
                   <a href="event.php?do=view" class="nav-link">Events</a>
                 </li>
+                <li class="nav-item">
+                    <i class="nav-icon icon-basic-book"></i>
+                  <a href="InSite.php" class="nav-link">InSite</a>
+                </li>
                 <li class="nav-item" >
                     <i class="nav-icon icon-basic-info"></i>
                     <a href="about.php" class="nav-link pr-2" data-scroll="#">About Us</a>

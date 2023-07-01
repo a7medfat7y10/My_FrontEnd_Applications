@@ -15,6 +15,7 @@
     <div class="collapse navbar-collapse" id="app-nav">
       <ul class="nav navbar-nav navbar-right">
         <li ><a href="events.php?do=view">Events</a></li>
+        <li ><a href="contact.php">Messages</a></li>
         <li ><a href="members.php">Members </a></li>
         <li><a href="../index.php">Visit EEGS </a></li>
         <li><a href="members.php?do=Edit&userid=<?php echo $_SESSION['ID']; ?>">Edit Profile</a></li>

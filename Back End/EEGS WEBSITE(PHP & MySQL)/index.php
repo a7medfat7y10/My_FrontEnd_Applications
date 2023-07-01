@@ -6,6 +6,13 @@ include "init.php"; //including header and navbar
 <!--Start Hero Area-->
 <section class="hero-area" id="home">
     <div class="hero-slider owl-carousel owl-theme">
+        <div class="item insite" style="cursor:pointer">
+            <a href="InSite.php">
+                <div class="single-item">
+                    <div class="bg-image" data-image="insite.jpeg"></div>
+                </div>
+            </a>
+        </div>
          <div class="item">
             <div class="single-item">
                 <div class="bg-image" data-image="slider.jpg"></div>
