@@ -1,0 +1,19 @@
+.image img
+{
+    height: 500px;
+    width: 500px;
+    clip-path:polygon(50% 0%, 0% 100%, 100% 100%)
+}
+
+.imagetwo img
+{
+    height: 500px;
+    width: 500px;
+    clip-path:circle(50% at 50% 50%)
+}
+.imagethree img
+{
+    height: 500px;
+    width: 500px;
+    clip-path:ellipse(15% 40% at 50% 50%)
+}

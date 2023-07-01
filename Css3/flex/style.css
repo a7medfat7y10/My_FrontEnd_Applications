@@ -1,0 +1,289 @@
+.container
+{
+    display: flex;
+    border:10px solid black;
+    width:1490px;
+    height:700px;
+    flex-direction: row;
+    color:#FFF;
+}
+.container .one
+{
+    width:100px;
+    background-color:#F00;
+    text-align: center;
+    font-size: 30px
+}
+.container .two
+{
+    width:100px;
+    background-color:darkorange;
+    text-align: center;
+    font-size: 30px
+}
+.container .three
+{
+    width:100px;
+    background-color:darkslategrey;
+    text-align: center;
+    font-size: 30px
+}
+.container .four
+{
+    width:100px;
+    background-color:#00F;
+    text-align: center;
+    font-size: 30px
+}
+.container .five
+{
+    width:100px;
+    background-color:green;
+    text-align: center;
+    font-size: 30px
+}
+.container .six
+{
+    width:100px;
+    background-color:aqua;
+    text-align: center;
+    font-size: 30px
+}
+.container .seven
+{
+    width:100px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px
+}
+.container .eight
+{
+    width:100px;
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 30px
+}
+.container .nine
+{
+    width:100px;
+    background-color:blueviolet;
+    text-align: center;
+    font-size: 30px
+}
+.container .ten
+{
+    width:100px;
+    background-color:cyan;
+    text-align: center;
+    font-size: 30px
+}
+
+
+
+
+
+.container1
+{
+    display: flex;
+    margin-top:200px;
+    width:1500px;
+    height:300px;
+    flex-direction: row;
+    color:#FFF;
+}
+.container1 .one
+{
+    width:150px;
+    background-color:#F00;
+    text-align: center;
+    font-size: 30px;
+    order:1
+}
+.container1 .two
+{
+    width:150px;
+    background-color:darkorange;
+    text-align: center;
+    font-size: 30px;
+    order:2
+}
+.container1 .three
+{
+    width:150px;
+    background-color:darkslategrey;
+    text-align: center;
+    font-size: 30px;
+    order:9
+}
+.container1 .four
+{
+    width:150px;
+    background-color:#00F;
+    text-align: center;
+    font-size: 30px;
+    order:3
+}
+.container1 .five
+{
+    width:150px;
+    background-color:green;
+    text-align: center;
+    font-size: 30px;
+    order:10
+}
+.container1 .six
+{
+    width:150px;
+    background-color:aqua;
+    text-align: center;
+    font-size: 30px;
+    order:4
+}
+.container1 .seven
+{
+    width:150px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    order:5
+}
+.container1 .eight
+{
+    width:150px;
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 30px;
+    order:6
+}
+.container1 .nine
+{
+    width:150px;
+    background-color:blueviolet;
+    text-align: center;
+    font-size: 30px;
+    order:7
+}
+.container1 .ten
+{
+    width:150px;
+    background-color:cyan;
+    text-align: center;
+    font-size: 30px;
+    order:8
+}
+
+
+
+.container2
+{
+    display: flex;
+    border:10px solid black;
+    width:1425px;
+    height:700px;
+    margin-top:200px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    color:#FFF;
+    margin-bottom: 200px
+}
+.container2 .one
+{
+    width:475px;
+    background-color:#F00;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .two
+{
+    width:475px;
+    background-color:darkorange;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .three
+{
+    width:475px;
+    background-color:darkslategrey;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .four
+{
+    width:475px;
+    background-color:#00F;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .five
+{
+    width:475px;
+    background-color:green;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .six
+{
+    width:475px;
+    background-color:aqua;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .seven
+{
+    width:475px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .eight
+{
+    width:475px;
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .nine
+{
+    width:475px;
+    background-color:blueviolet;
+    text-align: center;
+    font-size: 30px
+}
+.container2 .ten
+{
+    width:475px;
+    background-color:cyan;
+    text-align: center;
+    font-size: 30px
+}
+
+
+.container3
+{
+    margin:20px
+}
+.container3 h2
+{
+    background-color:crimson;
+    color:#FFF;
+    padding: 20px;
+    text-align: center;
+    
+}
+.container3 .content
+{
+    display:flex;
+    justify-content: space-between
+}
+.container3 .content div
+{
+    background-color:aqua;
+    float:left;
+    width:30%;
+    line-height: 1.7;
+    
+    height:400px;
+    padding:5px
+
+    
+}
