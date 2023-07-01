@@ -1,0 +1,2 @@
+replace events.php with the same file in admin
+replace init.php with the same file in the main folder not admin (for the front end)

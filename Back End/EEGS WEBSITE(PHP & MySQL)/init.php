@@ -5,9 +5,9 @@
 $tpl   = 'includes/templates/';
 $js    = 'layout/js/';
 $css   = 'layout/css/';
-$img   = 'layout/images/';
+$img   = 'admin/layout/images/';
 $pages = 'pages/';
-$eventimg = 'layout/images/events-images/';
+$eventimg = 'admin/layout/images/events-images/';
 $pagesback = '../';
 $homepage = 'index';
 $scrolltosection = 'scrolltosection';

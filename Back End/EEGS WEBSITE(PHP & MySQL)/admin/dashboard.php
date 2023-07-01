@@ -56,7 +56,7 @@
         <div class="latest">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div class="panel panel-default">
                             
                             <div class="panel-heading">
@@ -77,7 +77,7 @@
                                                     echo '<span class="btn btn-success pull-right">';
                                                         echo '<i class="fa fa-edit"></i>Edit';
                                                         if ($user['RegStatus'] == 0) {
-                                                            echo "<a href='members.php?do=Activate&userid=" . $user['UserID'] . "' class='btn btn-info activate pull-right'><i class='fa fa-close'></i> Activate</a>";          
+                                                            echo "<a href='members.php?do=Activate&userid=" . $user['UserID'] . "' class='btn btn-info activate pull-right'><i class='fa fa-check'></i> Activate</a>";          
                                                          } 
                                                     echo '</span>';
     
@@ -92,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <i class="fa fa-tag"></i> Latest Events
@@ -102,7 +102,7 @@
                             </div>
                             <div class="panel-body">
                                 
-                                <ul class="list-unstyled latest-users">
+                                <ul class="list-unstyled latest-users events">
                                 <?php
                                 $stmt = $con->prepare("SELECT * FROM events ORDER BY event_time DESC LIMIT 5");
                                 $stmt->execute();
@@ -111,7 +111,7 @@
                                     foreach ($rows as $row) {
                                         ?>
                                         <li >
-                                            <a href="events.php?do=single-event&eventid=<?php echo $row['event_id']; ?>">
+                                            <a class="title" href="events.php?do=single-event&eventid=<?php echo $row['event_id']; ?>">
                                                 <?php echo  $row['event_title']; ?>
                                             </a>
                                             <a href="events.php?do=Edit&eventid= <?php echo $row['event_id'] ?> ">
@@ -141,8 +141,17 @@
                 
             </div>
         </div>
+        
 
+        <section class="copyright text-center">
+        <div class="container">
+            <p>&copy; Designed and Developed By <span>EEGS SUSC</span> IT Team <?php echo date("Y");?></p>
+            
+        </div>
+        
+        </section>
         <?php
+
         include $tpl . 'footer.php'; //include footer
     } else{
         header('Location: index.php'); //if he has not logged in redirect to log in page

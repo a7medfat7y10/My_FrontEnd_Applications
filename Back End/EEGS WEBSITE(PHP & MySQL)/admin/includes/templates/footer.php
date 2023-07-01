@@ -1,11 +1,5 @@
  <!-- #################### Start CopyRight #################### -->
-    <section class="copyright text-center">
-        <div class="container">
-            <p>&copy; Designed and Developed By <span>EEGS SUSC</span> IT Team <?php echo date("Y");?></p>
-            
-        </div>
-        
-    </section>
+    
     <!-- #################### End CopyRight #################### -->
     </body>
     <script src="<?php echo $js ; ?>jquery-1.11.3.min.js"></script>

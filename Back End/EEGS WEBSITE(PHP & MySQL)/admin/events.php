@@ -43,16 +43,16 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                              <hr style="max-width: 100px;border:solid 1.5px #226131;">
                     <p style="text-align: center;"></p>
                         </div>
-                        <div class="event_image text-center">
+                        <div class="event_image text-center " >
                             <img src="<?php echo $img . 'events-images/' . $row['event_image_path']; ?>" alt="event"
-                                 class="img-fluid">
+                                 class="img-fluid img-responsive" >
                         </div>
                         <div class="event_time_inst">
                             <p>Time: <strong><?php echo $row['event_time']; ?></strong></p>
                             <p>Instructor: <strong><?php echo $row['event_instructor']; ?></strong></p>
                         </div>
                         <div class="event_des">
-                            <p>Some Details:</p>
+                            <p><strong>Some Details:</strong></p>
                             <p class="ml-5"><?php echo $row['event_description']; ?></p>
                         </div>
                     </div>
@@ -92,7 +92,8 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                             <table class="main-table events manage-members text-center table table-bordered">
                                 <tr>
                                     <td>#ID</td>
-                                    <td>Title</td>
+                                    <td>Image</td>
+                                    <td >Title</td>
                                     <td>Description</td>
                                     <td>Instructor</td>
                                     <td>Date</td>
@@ -102,7 +103,13 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                                     foreach($rows as $row) {
                                         echo "<tr>";
                                             echo "<td>" . $row['event_id'] . "</td>";
-                                            
+                                            echo "<td>";
+                                                if (empty($row['event_image_path'])) {
+                                                    echo '<img src="layout/images/events-images/1.jpg" alt="" />';
+                                                } else{
+                                                    echo "<img src='layout/images/events-images/" . $row['event_image_path'] ."' alt='' />";
+                                                }
+                                            echo "</td>";
                                             echo "<td><a href='events.php?do=single-event&eventid=" . $row['event_id'] . "'>" . $row['event_title'] ."</a</td>";
                                             echo "<td style='font-size:11px; width:30%'>" . $row['event_description'] ."</td>";
                                             echo "<td>" . $row['event_instructor'] ."</td>";
@@ -110,13 +117,10 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                                             echo  "<td>
                                                     <a href='events.php?do=Edit&eventid=" . $row['event_id'] . "' class='btn btn-success'><i class='fa fa-edit'></i> Edit</a>
                                                     <a href='events.php?do=Delete&eventid=" . $row['event_id'] . "' class='btn btn-danger confirmation'><i class='fa fa-close'></i> Delete</a>";
-                                                                                                                
-
-                                                echo "</td>";
+                                            echo "</td>";
                                         echo "</tr>";
                                     }
                                 ?>
-                                
                             </table>
                         </div>
                         <a href = "events.php?do=Add" class="add btn btn-primary"><i class="fa fa-plus"></i>&nbsp;Add New Event</a>
@@ -166,24 +170,25 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                             <div class="form-group form-group-lg">
                                 <label class="col-sm-2 control-label col-md-push-2">Event Time</label>
                                 <div class="col-sm-10 col-md-6 col-md-push-2">
-                                    <input type="datetime-local" name="time" class=" form-control" required='required'/>
+                                    <input type="date" name="time" class=" form-control" required='required'/>
                                 </div>
                             </div>
-                            <!--start image path-->
+                            
+                            
+
+                            <!--start avatar-->
                             <div class="form-group form-group-lg">
-                                <label class="col-sm-2 control-label col-md-push-2">Event Image Name</label>
+                                <label class="col-sm-2 control-label col-md-push-2">Use Avatar</label>
                                 <div class="col-sm-10 col-md-6 col-md-push-2">
-                                    <input type="text" name="img" class="form-control"  placeholder="Add / Before Event image name " required='required'  />
+                                    <input type="file" name="avatar" class="form-control" required='required'  />
                                 </div>
                             </div>
                             <!-- Add button-->
                             <div class="form-group form-group-lg">
                                 <div class="col-sm-offset-6 ">
-                                    <input  type="submit" value="Add Event" class="btn btn-success btn-lg" />
+                                    <input  type="submit" value="Add Event" class="btn btn-success btn-lg add-event" />
                                 </div>
                             </div>
-
-
                         </form>
                     </div>
           <?php
@@ -194,13 +199,21 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                     echo '<h1 class="text-center">Insert New Event</h1>';
 
                     echo '<div class="container">';
+                        //Upload Avatar -----1
+                        $avatarName = $_FILES['avatar']['name'];
+                        $avatarType = $_FILES['avatar']['type'];
+                        $avatarTmp = $_FILES['avatar']['tmp_name'];
+                        $avatarSize = $_FILES['avatar']['size'];
+
+                        $avatarAllowedExtension = array("jpeg", "jpg", "png" , "gif");
+                        $avatarExtension = strtolower(end(explode('.', $avatarName)));
+                        //--------------------------
 
                         
                         $title = $_POST['title'];
                         $desc = $_POST['desc'];
                         $instructor = $_POST['instructor'];
                         $time = $_POST['time'];
-                        $img = $_POST['img'];
                         //validate the form
                         $formErrors = array();
                         if(strlen($title) < 4 ) {
@@ -212,9 +225,7 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                         if(empty($desc) ) {
                             $formErrors[] = '<div class="alert alert-danger"> Description Cant Be empty</div>';
                         }
-                        if(empty($img) ) {
-                            $formErrors[] = '<div class="alert alert-danger"> Please Add Image Path</div>';
-                        }
+                        
                         if(empty($time) ) {
                             $formErrors[] = '<div class="alert alert-danger"> Date Cant Be empty</div>';
                         }
@@ -225,20 +236,29 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                         }
 
                         //check if no errors proceed the update
-                        if (empty($formErrors)) {
-                            
-                            
-                            
+                       //check if no errors proceed the update
+                       if (empty($formErrors)) {
+
+                        //upload avatar ---3
+                        $avatar = rand(0, 100000000000) . '_' . $avatarName;
+                        move_uploaded_file($avatarTmp , 'layout\images\events-images\\' . $avatar );
+                        //-----------------------
+
+                        //Insert info from form to  database 
+                        $stmt = $con->prepare("INSERT INTO 
+                                                    events(event_title, event_description, event_instructor, event_time, event_image_path)
+                                                VALUES (?, ?, ?, ?,?) ");
+                        $stmt->execute([$title, $desc, $instructor, $time, $avatar]);
                         
-                                //Insert info from form to  database 
-                                $stmt = $con->prepare("INSERT INTO 
-                                                            events(event_title, event_description, event_instructor, event_time, event_image_path)
-                                                        VALUES (?, ?, ?, ?,? ) ");
-                                $stmt->execute([$title, $desc, $instructor, $time, $img]);
-                                
-                                $theMsg = '<div class="alert alert-success">' . $stmt->rowCount() . ' Record Inserted</div>';
-                                redirectHome($theMsg, 'back');
-                        }
+                        $theMsg = '<div class="alert alert-success">' . $stmt->rowCount() . ' Record Inserted</div>';
+                        redirectHome($theMsg, 'back');
+                }
+                        
+                
+
+                        
+
+                        
                         
                 } else {
                     echo '<div class="container">';
@@ -295,8 +315,8 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                             <div class="form-group form-group-lg">
                                 <label class="col-sm-2 control-label col-md-push-2">Event Time</label>
                                 <div class="col-sm-10 col-md-6 col-md-push-2">
-                                    <?php $date = strftime('%Y-%m-%dT%H:%M:%S', strtotime($row['event_time']));   ?>
-                                    <input type="datetime-local" name="time" class=" form-control" value="<?php echo $date?>" />
+                                    <?php $date = $row['event_time'];   ?>
+                                    <input type="date" name="time" class=" form-control" value="<?php echo $date?>" />
                                     
                                 </div>
                             </div>
@@ -309,8 +329,8 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
                             </div>
                             <!-- Add button-->
                             <div class="form-group form-group-lg">
-                                <div class="col-sm-offset-6 ">
-                                    <input  type="submit" value="Save" class="btn btn-success btn-lg" />
+                                <div class="col-sm-offset-6  ">
+                                    <input  type="submit" value="Save" class="btn btn-success btn-lg edit-event" />
                                 </div>
                             </div>
     
@@ -369,7 +389,7 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
 
                             //update database with this info
                             $stmt = $con->prepare("UPDATE events SET event_title = ?, event_description = ?, event_instructor = ?, event_time = ?, event_image_path = ?  WHERE event_id = ? ");
-                            $stmt->execute(array($title,$desc ,instructor, $time, $img, $id));
+                            $stmt->execute(array($title,$desc ,$instructor, $time, $img, $id));
                             $theMsg = '<div class="alert alert-success">' . $stmt->rowCount() . ' Record Updated</div>';
                             redirectHome($theMsg , 'back');
                         
@@ -416,4 +436,4 @@ if(isset($_SESSION['Username'])) { //if the user logged in already
         exit();
     }
     ob_end_flush();
-    ?>
+?>

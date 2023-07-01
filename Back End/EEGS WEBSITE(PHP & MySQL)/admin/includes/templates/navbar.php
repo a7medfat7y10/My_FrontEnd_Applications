@@ -8,7 +8,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="dashboard.php">EEGS Admin</a>
+      <a class="navbar-brand" href="dashboard.php" style="font-size: 23px;font-weight:bold">
+        <img src="<?php echo $img ?>EEGSsmall.png" class="img-fluid" alt="Take the right track" style="display:inline-block; width: 41px; height: 36px; position: relative; top: -6px;"/>
+         Admin</a>
     </div>
     <div class="collapse navbar-collapse" id="app-nav">
       <ul class="nav navbar-nav navbar-right">

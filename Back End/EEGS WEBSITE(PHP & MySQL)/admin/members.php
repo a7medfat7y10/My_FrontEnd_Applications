@@ -77,7 +77,7 @@
                                 
                             </table>
                         </div>
-                        <a href = "members.php?do=Add" class="add btn btn-primary"><i class="fa fa-plus"></i>&nbsp;Add New Member</a>
+                        <a href = "members.php?do=Add" class="add btn btn-primary" ><i class="fa fa-plus"></i>&nbsp;Add New Member</a>
                     </div>
             <?php } else {
                 echo '<div class="container">';

@@ -10,9 +10,8 @@
     $css = 'layout/css/';
     $js = 'layout/js/';
     $lang = 'includes/languages/';
-
-$eventimg = 'layout/images/events-images/';
-$img   = 'layout/images/';
+    $eventimg = 'layout/images/events-images/';
+    $img   = 'layout/images/';
 
     //include the important files
     include 'includes/functions/functions.php';

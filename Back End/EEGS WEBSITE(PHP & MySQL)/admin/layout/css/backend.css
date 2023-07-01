@@ -1,17 +1,23 @@
 /* Main Css Rules  for Main Elements in The project */
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@font-face {
+    font-family: 'ar_essenceregular';
+    src: url("http://eegs-susc.org/layout/css/fonts/aressence.woff2") format('woff2'),
+      url("http://eegs-susc.org/layout/css/fonts/aressence.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     background-color: #f4f4f4;
-    font-size: 16px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;  
+ 
 }
-@media (max-width: 767px) {
-    body{
-        margin-bottom:80px
-    }
-}
+
 h1 {
     font-family: 'ar_essenceregular', serif;
   font-weight: bold;
@@ -20,15 +26,32 @@ h1 {
   text-shadow: 10px 10px 5px rgba(140, 140, 140, 0.5);
 
 }
+.heading {
+    font-family: 'ar_essenceregular', serif;
+    font-weight: bold;
+    color: #1A2334;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 5px rgba(140, 140, 140, 0.5); }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    
+a {
+    text-decoration: none !important; }
+
+.main-padding {
+    padding-top: 50px;
+    padding-bottom: 10px; }
+      
 
 
-}
 /*  End of Main Css Rules  */
 
 /*  Start login */
-.login {
-    width:300px;
-    margin:100px auto;
+.container > .login h1 {
+    margin-top: 50px
 }
 .login input {
     margin-bottom:10px
@@ -55,7 +78,17 @@ h1 {
     color:#1e7e34
 }
 
-
+header .navbar-brand {
+    width: 320px !important;
+    margin-right: 0 !important; }
+    
+  @media (max-width: 767px) {
+      header .navbar-brand {
+          width:200px !important;
+      }
+  }
+ 
+  
 
 /*Navbar*/
 
@@ -71,6 +104,11 @@ h1 {
     border-radius:10px;
     position: relative;
     overflow: hidden;
+}
+@media (max-width:767px) {
+    .home-stats .stat {
+        margin-bottom:10px
+    }
 }
 .home-stats .stat .info {
     float:right;
@@ -123,6 +161,10 @@ h1 {
 .latest-users li {
     padding: 10px;
     overflow: hidden;
+}
+.latest-users.events li a:first-child {
+    display: block;
+    max-width:65%
 }
 .latest-users li:nth-child(odd) {
     background-color: #EEE;
@@ -221,16 +263,39 @@ span.asterisk {
     background-color:#333;
     color: #FFF
 }
+@media (max-width:767px) {
+    .main-table tr td {
+        height:30px
+    }
+}
 .main-table .btn {
     padding:3px 10px;
     
 }
+.table-responsive {
+    margin-bottom: -30px
+}
 .add {  
-    position: relative ;
-    top:-70px 
+    
+    margin-bottom:20px
 }
 @media (max-width: 767px ) {
-    .add {top:0}
+    .add {  
+    
+        margin-top:50px;
+    }
+}
+@media (max-width: 767px ) {
+    .add-event {  
+    
+        margin-left:18px;
+    }
+}
+@media (max-width: 767px ) {
+    .edit-event {  
+    
+        margin-left:18px;
+    }
 }
 .activate {
     margin-left: 5px;
@@ -245,21 +310,8 @@ span.asterisk {
 
 
 /*All Css*/
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
-@font-face {
-    font-family: 'ar_essenceregular';
-    src: url("http://eegs-susc.org/layout/css/fonts/aressence.woff2") format('woff2'),
-      url("http://eegs-susc.org/layout/css/fonts/aressence.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-.heading {
-  font-family: 'ar_essenceregular', serif;
-  font-weight: bold;
-  color: #1A2334;
-  text-transform: uppercase;
-  text-shadow: 10px 10px 5px rgba(140, 140, 140, 0.5); }
+
 
 .event-boxs {
     margin-bottom:100px
@@ -324,11 +376,24 @@ span.asterisk {
 .event-area .single-event .event-VM .MV-link:hover {
   background: #FFF;
   color: #226131; }
+
+.event_des p.ml-5{
+    margin-left: 3rem !important;
+
+}
+.event_image{
+    margin-left:20%;
+    margin-bottom:10px
+}
+@media(max-width:767px) {
+    .event_image{
+        margin-left: 0
+    }
+}
 /*-------------------------------------------------------------------*/
-/*All CSS*/
 /*Start Copy right footer*/
 .copyright {
-    position:fixed;
+    position: relative;
     bottom:0;
     left:0;
     right:0;

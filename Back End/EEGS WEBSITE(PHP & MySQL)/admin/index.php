@@ -3,7 +3,9 @@
     $noNavbar = '' ; //navbar will not appear
     $pageTitle = 'Login';
     if(isset($_SESSION['Username'])) {
-        header('Location: dashboard.php'); //redirect to dashboard page
+        header('Location: dashboard.php');
+        exit();
+        //redirect to dashboard page
     }
 
 
@@ -33,14 +35,15 @@
     }
 
 ?>
-
-    <div style="width:25%; margin:10% auto">
-        <form class="login"   action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST"> <!--data to the same page-->
-            <h1 class="text-center">Admin Login</h1>
-            <input class="user form-control" type="text" name="user" placeholder="Username" autocomplete="off" />
-            <input class="pass form-control" type="password" name="pass" placeholder="Password" autocomplete="new-password" />
-            <input class="logbtn btn btn-primary btn-block" type="submit" value="Login"/>
-        </form>
+    <div class="container">
+        <div class="row">
+            <form class=" col-sm-4 col-sm-offset-4 login " style="margin-top:15%"  action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST"> <!--data to the same page-->
+                <h1 class="text-center">Admin Login</h1>
+                <input class="user form-control" type="text" name="user" placeholder="Username" autocomplete="off" />
+                <input class="pass form-control" type="password" name="pass" placeholder="Password" autocomplete="new-password" />
+                <input class="logbtn btn btn-primary btn-block" type="submit" value="Login"/>
+            </form>
+        </div>
     </div>
 
 <?php include $tpl . 'footer.php'; ?>
